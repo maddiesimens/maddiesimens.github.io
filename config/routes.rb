@@ -1,4 +1,8 @@
 MaddiesimensGithubIo::Application.routes.draw do
+  root :to => 'high_voltage/pages#show', id: 'home'
+end
+
+# MaddiesimensGithubIo::Application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -53,4 +57,5 @@ MaddiesimensGithubIo::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
+# end
+
