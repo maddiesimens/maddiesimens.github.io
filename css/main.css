@@ -6,6 +6,10 @@ a:visited {
     text-decoration: none;
      color: #262626;
 }
+a:hover 
+{
+    color: #f27c4f;
+}
 body 
 {
     margin:0px;
@@ -54,7 +58,7 @@ li
     z-index: 4;
 }
 #home_arrow {
-    margin-top: 150px;
+    margin-top: 145px;
     margin-left: 48%;
     width: 45px;
     text-align: center;
@@ -134,7 +138,11 @@ p#headline {
     width: 335px;
     font-family: Georgia;
     color: #dadada;
-    line-height: 155%;   
+    line-height: 155%; 
+}
+#resume_link {
+    color: #f27c4f;
+    /* color: #f69f7e; */
 }
 #contact {
   float: left;
