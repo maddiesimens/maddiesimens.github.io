@@ -60,7 +60,7 @@ li
 #home_arrow {
     margin-top: 145px;
     margin-left: 48%;
-    width: 45px;
+    width: 40px;
     text-align: center;
 }
 p#headline_name {
@@ -110,7 +110,8 @@ p#headline {
 #headshot {
     margin-top: -340px;
     margin-left: 23%;
-    width: 300px;
+    width: 25%;
+    min-width: 225px;
 }
 #work {
   float: left;
