@@ -1,9 +1,12 @@
 .navbar {
-
+    text-align: center;
+    margin-top: 3%;
+    font-family: "museo-sans;"
 }
 
-.logo {
-    
+#logo {
+    width: 4%; /* 60 / 960 */
+    text-align: center;
 }
 
 
