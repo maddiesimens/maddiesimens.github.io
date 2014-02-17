@@ -169,9 +169,14 @@ p#headline {
     line-height: 155%;
 }
 #twitter {
-    margin-top: 25px;
-    margin-left: 50%;
-    width: 45px;
+    margin-top: -15px;
+    margin-left: 48.5%;
+    width: 75px;
+}
+#linkedin {
+    margin-top: -85px;
+    margin-left: 55%;
+    width: 75px;
 }
 
 
