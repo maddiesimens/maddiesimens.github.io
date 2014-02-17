@@ -165,7 +165,6 @@ li
     padding: 0;
     z-index: -1;
     overflow: hidden;
-    letter-spacing: 0.05em;
 }
 #company_neu {
     font-family: "museo-sans";
@@ -177,6 +176,7 @@ li
     width: 172px; */
     margin-top: 145px;
     margin-left: 15%;
+    letter-spacing: 0.05em;
 }
 #position_neu {
     font-family: "museo-sans";
@@ -191,6 +191,7 @@ li
     color: #f27c4f;
     margin-top: 25px;
     margin-left: 15%;
+    letter-spacing: 0.05em;
 }
 #position_wistia {
     font-family: "museo-sans";
@@ -205,6 +206,7 @@ li
     color: #f27c4f;
     margin-top: 25px;
     margin-left: 15%;
+    letter-spacing: 0.05em;
 }
 #position_eclub {
     font-family: "museo-sans";
@@ -219,6 +221,7 @@ li
     color: #f27c4f;
     margin-top: 25px;
     margin-left: 15%;
+    letter-spacing: 0.05em;
 }
 #position_lh {
     font-family: "museo-sans";
