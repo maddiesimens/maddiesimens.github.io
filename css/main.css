@@ -61,7 +61,7 @@ li
     z-index: 4;
 }
 #home_arrow {
-    margin-top: 160px;
+    margin-top: 145px;
     margin-left: 48%;
     width: 40px;
     text-align: center;
@@ -73,7 +73,7 @@ p#headline_name {
     margin-top: 300px;
     text-align: center;
     font-size: 325%;
-    letter-spacing: .015em;
+    letter-spacing: .01em;
 }
 p#headline {
     font-family: Georgia;
