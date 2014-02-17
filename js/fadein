@@ -1,0 +1,3 @@
+$(window).load(function(){ 
+    $('div.headline_text').fadeIn(4000);
+});
