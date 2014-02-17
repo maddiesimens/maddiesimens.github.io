@@ -82,9 +82,28 @@ p#headline {
   background-color: #ffffff;
 }
 #title_about {
-    margin-top: 150px;
+    margin-top: 140px;
     margin-left: 50%;
-    width: 45px;
+    width: 60px;
+}
+#about_copy1 {
+    margin-top: 25px;
+    margin-left: 50%;
+    width: 335px;
+    font-family: Georgia;
+    line-height: 155%;
+}
+#about_copy2 {
+    margin-top: 15px;
+    margin-left: 50%;
+    width: 335px;
+    font-family: Georgia;
+    line-height: 155%;
+}
+#headshot {
+    margin-top: -325px;
+    margin-left: 25%;
+    width: 200px;
 }
 
 
