@@ -92,6 +92,7 @@ p#headline {
     margin-left: 50%;
     width: 335px;
     font-family: Georgia;
+    color: #262626;
     line-height: 155%;
 }
 #about_copy2 {
@@ -99,12 +100,61 @@ p#headline {
     margin-left: 50%;
     width: 335px;
     font-family: Georgia;
+    color: #262626;
     line-height: 155%;
 }
 #headshot {
     margin-top: -340px;
     margin-left: 23%;
     width: 300px;
+}
+#work {
+  float: left;
+  margin-top: 0px;
+  height: 550px;
+  width: 100%;
+  background-color: #262626;
+}
+#title_work {
+    margin-top: 145px;
+    margin-left: 23%;
+    width: 55px;
+}
+#work_copy1 {
+    margin-top: 30px;
+    margin-left: 23%;
+    width: 335px;
+    font-family: Georgia;
+    color: #dadada;
+    line-height: 155%;
+}
+#work_copy2 {
+    margin-top: 20px;
+    margin-left: 23%;
+    width: 335px;
+    font-family: Georgia;
+    color: #dadada;
+    line-height: 155%;   
+}
+#contact {
+  float: left;
+  margin-top: 0px;
+  height: 550px;
+  width: 100%;
+  background-color: #ffffff;
+}
+#title_contact {
+    margin-top: 140px;
+    margin-left: 50%;
+    width: 78px;
+}
+#contact_copy {
+    margin-top: 25px;
+    margin-left: 50%;
+    width: 345px;
+    font-family: Georgia;
+    color: #262626;
+    line-height: 155%;
 }
 
 
