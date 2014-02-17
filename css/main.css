@@ -24,6 +24,9 @@ body
     font-weight: 300;
     font-size: 75%;
     letter-spacing: 0.15em;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #828e97;
 }
 #logo {
     margin-top: 30px;
@@ -58,7 +61,7 @@ li
     z-index: 4;
 }
 #home_arrow {
-    margin-top: 145px;
+    margin-top: 160px;
     margin-left: 48%;
     width: 40px;
     text-align: center;
@@ -66,8 +69,8 @@ li
 p#headline_name {
     font-family: Georgia;
     color: #23272a;
-    margin-top: 340px;
-    margin-left: 28%;
+    margin-top: 315px;
+    text-align: center;
     font-size: 140%;
     letter-spacing: .03em;
 }
@@ -75,7 +78,7 @@ p#headline {
     font-family: Georgia;
     color: #23272a;
     margin-top: -10px;
-    margin-left: 37%;
+    text-align: center;
     font-size: 140%;
     letter-spacing: .03em;
 }
@@ -164,6 +167,11 @@ p#headline {
     font-family: Georgia;
     color: #23272a;
     line-height: 155%;
+}
+#twitter {
+    margin-top: 25px;
+    margin-left: 50%;
+    width: 45px;
 }
 
 
