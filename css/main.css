@@ -67,17 +67,18 @@ li
     text-align: center;
 }
 p#headline_name {
-    font-family: Georgia;
+    font-family: "museo-sans";
+    font-weight: 700;
     color: #23272a;
-    margin-top: 315px;
+    margin-top: 300px;
     text-align: center;
-    font-size: 140%;
-    letter-spacing: .03em;
+    font-size: 325%;
+    letter-spacing: .015em;
 }
 p#headline {
     font-family: Georgia;
     color: #23272a;
-    margin-top: -10px;
+    margin-top: -40px;
     text-align: center;
     font-size: 140%;
     letter-spacing: .03em;
