@@ -152,7 +152,7 @@ li
 #contact {
   float: left;
   margin-top: 0px;
-  height: 455px;
+  height: 460px;
   width: 100%;
   background-color: #ffffff;
 }
@@ -187,11 +187,15 @@ li
     margin-left: 10px;
     width: 32px;
 }
+#logo_footer {
+    margin-right: 5px;
+    width: 10px;
+}
 #footer {
-      color: #23272a;
+      color: #4a5258;
       text-align: center;
       font-family: "museo-sans";
-      letter-spacing: 0.15em;
+      letter-spacing: 0.1em;
       margin-bottom: 10px;
       font-size: 50%;
 }
