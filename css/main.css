@@ -66,16 +66,16 @@ li
     width: 40px;
     text-align: center;
 }
-p#headline_name {
+#headline_name {
     font-family: "museo-sans";
     font-weight: 700;
     color: #23272a;
     margin-top: 300px;
     text-align: center;
     font-size: 325%;
-    letter-spacing: .01em;
+    letter-spacing: .005em;
 }
-p#headline {
+#headline {
     font-family: Georgia;
     color: #23272a;
     margin-top: -40px;
@@ -89,6 +89,10 @@ p#headline {
   height: 550px;
   width: 100%;
   background-color: #ffffff;
+}
+#about_tracker {
+    color: #ffffff;
+    margin-top: 0px;
 }
 #title_about {
     margin-top: 140px;
