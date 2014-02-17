@@ -21,7 +21,7 @@ body
     position:fixed;
     text-align: center;
     font-family: "museo-sans";
-    font-weight: 300;
+    font-weight: 500;
     font-size: 75%;
     letter-spacing: 0.15em;
     border-bottom-style: solid;
@@ -172,19 +172,19 @@ p#headline {
     color: #f27c4f;
 }
 #twitter {
-    margin-top: -13px;
+    margin-top: -10px;
     margin-left: 48.5%;
     width: 63px;
 }
 #linkedin {
-    margin-top: -15px;
-    margin-left: 0px;
+    margin-top: -12px;
+    margin-left: -7px;
     width: 54px;
 }
 #medium {
-    margin-top: -12px;
-    margin-left: 16px;
-    width: 33px;
+    margin-top: -8px;
+    margin-left: 10px;
+    width: 32px;
 }
 
 
