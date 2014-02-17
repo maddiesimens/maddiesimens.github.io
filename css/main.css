@@ -72,7 +72,7 @@ li
     color: #23272a;
     margin-top: 300px;
     text-align: center;
-    font-size: 325%;
+    font-size: 324%;
     letter-spacing: .005em;
 }
 #headline {
@@ -89,10 +89,6 @@ li
   height: 550px;
   width: 100%;
   background-color: #ffffff;
-}
-#about_tracker {
-    color: #ffffff;
-    margin-top: 0px;
 }
 #title_about {
     margin-top: 140px;
@@ -156,7 +152,7 @@ li
 #contact {
   float: left;
   margin-top: 0px;
-  height: 550px;
+  height: 455px;
   width: 100%;
   background-color: #ffffff;
 }
@@ -190,6 +186,14 @@ li
     margin-top: -8px;
     margin-left: 10px;
     width: 32px;
+}
+#footer {
+      color: #23272a;
+      text-align: center;
+      font-family: "museo-sans";
+      letter-spacing: 0.015em;
+      margin-bottom: 10px;
+      font-size: 75%;
 }
 
 
