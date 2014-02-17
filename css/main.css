@@ -14,10 +14,11 @@ body
 #nav {
  background-color:#f2f2f2;
  width:100%;
- height:200px;
+ height:190px;
  position:fixed;
  text-align: center;
  font-family: "museo-sans";
+ letter-spacing: 0.15em;
 }
 
 #navigation
