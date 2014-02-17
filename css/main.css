@@ -1,24 +1,24 @@
 a:link {
-  text-decoration: none;
-  color: #262626;
+    text-decoration: none;
+    color: #262626;
 }
 a:visited {
-  text-decoration: none;
-  color: #262626;
+    text-decoration: none;
+     color: #262626;
 }
 body 
 {
- margin:0px;
+    margin:0px;
 }
 #nav {
- background-color:#f2f2f2;
- width:100%;
- height:170px;
- position:fixed;
- text-align: center;
- font-family: "museo-sans";
- font-size: 80%;
- letter-spacing: 0.15em;
+    background-color:#f2f2f2;
+    width:100%;
+    height:170px;
+    position:fixed;
+    text-align: center;
+    font-family: "museo-sans";
+    font-size: 80%;
+    letter-spacing: 0.15em;
 }
 #logo {
     margin-top: 35px;
@@ -27,27 +27,54 @@ body
 }
 #navigation
 {
- list-style-type:none;
- margin-top: 25px;
- margin-left: -30px; 
+    list-style-type:none;
+    margin-top: 25px;
+    margin-left: -30px; 
 }
 li 
 {
- display:inline;
- padding:1.5%;
+    display:inline;
+    padding:1.5%;
 }
 #nav a
 {
- font-family: "museo-sans";
- text-decoration:none;
+    font-family: "museo-sans";
+    text-decoration:none;
 } 
 #nav a:hover 
 {
- color:#f27c4f;
+    color:#f27c4f;
 }
-
-
-
+#home {
+    float: left;
+    height: 720px;
+    width: 100%;
+    /* background-color: #84bba7;
+    background-color: #a4cec4; */
+    background-color: #262626;
+    z-index: 4;
+}
+p#headline_name {
+    font-family: Georgia;
+    color: #dadada;
+    margin-top: 340px;
+    margin-left: 25%;
+    font-size: 160%;
+    letter-spacing: .03em;
+}
+p#headline {
+    font-family: Georgia;
+    color: #dadada;
+    margin-top: -10px;
+    margin-left: 35%;
+    font-size: 160%;
+    letter-spacing: .03em;
+}
+#home_arrow {
+    margin-top: 35px;
+    width: 45px; /* 60 / 960 */
+    text-align: center;
+}
 
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
