@@ -1,3 +1,7 @@
+.test {
+    color: #ffffff;
+}
+
 a:link {
     text-decoration: none;
     color: #23272a;
@@ -15,7 +19,7 @@ body
     margin:0px;
 }
 #nav {
-    background-color:#ffffff;
+    background-color:#f7f7f7;
     width:100%;
     height:155px;
     position:fixed;
@@ -56,7 +60,7 @@ li
 }
 #home {
     float: left;
-    height: 640px;
+    height: 680px;
     width: 100%;
     background-color: #23272a;
     z-index: 8;
@@ -91,7 +95,7 @@ li
     margin-top: -100px;
     height: 680px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     z-index: 6;
 }
 #title_about {
@@ -123,16 +127,15 @@ li
 }
 #container {
     width: 100%;
-    height: 550px;
+    height: 580px;
     overflow: auto;
     background-color: #23272a; 
 }
 #work {
   float: left;
   margin-top: -100px;
-  height: 680px;
+  height: 580px;
   width: 50%;
-  padding: 0;
   z-index: 2;
 }
 #title_work {
@@ -249,9 +252,9 @@ li
 #contact {
   float: left;
   margin-top: 0px;
-  height: 470px;
+  height: 550px;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #f7f7f7;
 }
 #title_contact {
     margin-top: 140px;
