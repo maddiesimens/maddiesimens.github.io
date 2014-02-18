@@ -179,7 +179,7 @@ li
 #company_neu {
     font-family: "museo-sans";
     font-size: 75%;
-    font-weight: 700;
+    font-weight: 500;
     color: #f27c4f;
     /* font-color: #23272a;
     background-color: #dadada;
@@ -202,7 +202,7 @@ li
 #company_wistia {
     font-family: "museo-sans";
     font-size: 75%;
-    font-weight: 700;
+    font-weight: 500;
     color: #f27c4f;
     margin-top: 38px;
     margin-left: 15%;
@@ -215,11 +215,12 @@ li
     margin-top: 3px;
     margin-left: 15%;
     letter-spacing: 0.05em;
+    font-weight: 300;
 }
 #company_eclub {
     font-family: "museo-sans";
     font-size: 75%;
-    font-weight: 700;
+    font-weight: 500;
     color: #f27c4f;
     margin-top: 38px;
     margin-left: 15%;
@@ -232,11 +233,12 @@ li
     margin-top: 3px;
     margin-left: 15%;
     letter-spacing: 0.05em;
+    font-weight: 300;
 }
 #company_lh {
     font-family: "museo-sans";
     font-size: 75%;
-    font-weight: 700;
+    font-weight: 500;
     color: #f27c4f;
     margin-top: 38px;
     margin-left: 15%;
@@ -249,6 +251,7 @@ li
     margin-top: 3px;
     margin-left: 15%;
     letter-spacing: 0.05em;
+    font-weight: 300;
 }
 /* #logo_neu {
     width: 15%;
