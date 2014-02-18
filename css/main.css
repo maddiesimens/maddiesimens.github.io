@@ -68,11 +68,11 @@ li
 }
 #headline_name {
     font-family: "museo-sans";
-    font-weight: 700;
+    font-weight: 500;
     color: #f7f7f7;
     margin-top: 300px;
     text-align: center;
-    font-size: 305%;
+    font-size: 300%;
     letter-spacing: .005em;
 }
 #headline {
