@@ -100,8 +100,7 @@ li
     margin-top: 25px;
     margin-left: 50%;
     width: 335px;
-    font-family: "minion-pro", Georgia;
-    font-size: 110%;
+    font-family: Georgia;
     color: #23272a;
     line-height: 155%;
 }
@@ -109,7 +108,7 @@ li
     margin-top: 15px;
     margin-left: 50%;
     width: 335px;
-    font-family: "minion-pro", Georgia;
+    font-family: Georgia;
     color: #23272a;
     line-height: 155%;
 }
@@ -142,7 +141,7 @@ li
     margin-left: 47%;
     width: 50%;
     min-width: 200px;
-    font-family: "minion-pro", Georgia;
+    font-family: Georgia;
     color: #dadada;
     line-height: 155%;
     z-index: 1;
@@ -152,7 +151,7 @@ li
     margin-left: 47%;
     width: 50%;
     min-width: 200px;
-    font-family: "minion-pro", Georgia;
+    font-family: Georgia;
     color: #dadada;
     line-height: 155%; 
 }
@@ -259,7 +258,7 @@ li
     margin-top: 25px;
     margin-left: 23%;
     width: 345px;
-    font-family: "minion-pro", Georgia;
+    font-family: Georgia;
     color: #23272a;
     line-height: 155%;
 }
