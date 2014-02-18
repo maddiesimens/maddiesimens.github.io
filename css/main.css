@@ -76,7 +76,7 @@ li
     letter-spacing: .005em;
 }
 #headline {
-    font-family: Georgia;
+    font-family: "minion-pro", Georgia;
     color: #f7f7f7;
     margin-top: -45px;
     text-align: center;
