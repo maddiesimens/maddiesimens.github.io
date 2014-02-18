@@ -187,7 +187,7 @@ li
     width: 172px; */
     margin-top: 145px;
     margin-left: 15%;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
 }
 #position_neu {
     font-family: "museo-sans";
@@ -195,6 +195,8 @@ li
     color: #dadada;
     margin-top: 3px;
     margin-left: 15%;
+    letter-spacing: 0.05em;
+
 }
 #company_wistia {
     font-family: "museo-sans";
@@ -203,7 +205,7 @@ li
     color: #f27c4f;
     margin-top: 38px;
     margin-left: 15%;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
 }
 #position_wistia {
     font-family: "museo-sans";
@@ -211,6 +213,7 @@ li
     color: #dadada;
     margin-top: 3px;
     margin-left: 15%;
+    letter-spacing: 0.05em;
 }
 #company_eclub {
     font-family: "museo-sans";
@@ -219,7 +222,7 @@ li
     color: #f27c4f;
     margin-top: 38px;
     margin-left: 15%;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
 }
 #position_eclub {
     font-family: "museo-sans";
@@ -227,6 +230,7 @@ li
     color: #dadada;
     margin-top: 3px;
     margin-left: 15%;
+    letter-spacing: 0.05em;
 }
 #company_lh {
     font-family: "museo-sans";
@@ -235,7 +239,7 @@ li
     color: #f27c4f;
     margin-top: 38px;
     margin-left: 15%;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
 }
 #position_lh {
     font-family: "museo-sans";
@@ -243,6 +247,7 @@ li
     color: #dadada;
     margin-top: 3px;
     margin-left: 15%;
+    letter-spacing: 0.05em;
 }
 /* #logo_neu {
     width: 15%;
@@ -293,6 +298,7 @@ li
 }
 #footer {
       color: #4a5258;
+      background-color: #f7f7f7;
       text-align: center;
       font-family: "museo-sans";
       letter-spacing: 0.1em;
