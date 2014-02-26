@@ -145,14 +145,12 @@ li
 }
 #title_work {
     margin-top: 255px;
+    margin-left: 47%;
     width: 55px;
-    float: right;
-    margin-right: 300px;
 }
 #work_copy1 {
     margin-top: 30px;
-    float: right;
-    margin-right: 33px;
+    margin-left: 47%;
     width: 50%;
     min-width: 200px;
     max-width: 335px;
@@ -163,8 +161,7 @@ li
 }
 #work_copy2 {
     margin-top: 20px;
-    margin-right: 33px;
-    float: right;
+    margin-left: 47%;
     width: 50%;
     min-width: 200px;
     max-width: 335px;
