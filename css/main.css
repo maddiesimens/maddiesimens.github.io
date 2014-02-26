@@ -125,6 +125,7 @@ li
     width: 25%;
     min-width: 225px;
     max-width: 300px;
+    float: right;
 }
 #container {
     width: 100%;
