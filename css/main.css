@@ -124,6 +124,7 @@ li
     margin-left: 23%;
     width: 25%;
     min-width: 225px;
+    max-width: 300px;
 }
 #container {
     width: 100%;
