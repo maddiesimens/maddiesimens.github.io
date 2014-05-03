@@ -122,7 +122,7 @@ h2{
 }
 
 #second{
-	background: url(images/second2.jpg) 50% 0 no-repeat fixed;
+	background: url(img/second2.jpg) 50% 0 no-repeat fixed;
 	background-color: #B0DEED;
 	color: white;
 	height: 600px;
@@ -144,7 +144,7 @@ h2{
 */
 
 #third{
-	background: url(images/third1.jpg) 50% 0 no-repeat fixed;
+	background: url(img/third1.jpg) 50% 0 no-repeat fixed;
 	background-color: #253F6F;
 	color: white;
 	height: 650px;
