@@ -33,9 +33,9 @@ html{
 /* ----- Borders ----- */
 #container{
 	border:0 solid transparent;
-	width: 1000px;
+	width: 1100px;
 	margin: 0 auto;
-	margin-left: -40px;
+	margin-left: -55px;
 	position: absolute;
 	overflow: hidden;
 }
@@ -158,7 +158,7 @@ li.leftThird small, li.middleThird small, li.rightThird small,
 	padding: 10px 13px;
 	width: 95px;
 	font-size: 20px;
-	margin-left: -40px;
+	margin-left: -50px;
 	margin-top: 50px;
 
 }
