@@ -5,8 +5,6 @@ body {
 	margin: 0;
 	min-width: 980px;
 	padding: 0;
-	font-family: "brandon-grotesque", Verdana;
-	color: #ffffff;
 }
 
 p {
@@ -39,6 +37,8 @@ h3 {
 	text-align: center;
 	font-size: 24px;
 	line-height: 150%;
+	font-family: "brandon-grotesque", Verdana;
+	color: #ffffff;
 }
 
 #nav {
