@@ -131,6 +131,10 @@ h3 {
 	width: 675px;
 }
 
+#bold {
+	font-weight: bold;
+}
+
 #fifth {
 	background-color: #253F6F;
 	height: 650px;
