@@ -139,11 +139,12 @@ h3 {
 }
 
 #fifth h2 {
-	margin-top: -195px;
+	margin-top: -175px;
 }
 
 #fifth .text {
 	width: 900px;
+	line-height: 100%;
 }
 
 #cup_container {
