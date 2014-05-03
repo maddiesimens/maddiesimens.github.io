@@ -121,6 +121,7 @@ h3 {
 #third .text {
 	margin-top: 75px;
 	line-height: 100%;
+	overflow: hidden;
 }
 
 #third_cups {
