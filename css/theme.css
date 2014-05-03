@@ -35,7 +35,7 @@ html{
 	border:0 solid transparent;
 	width: 1000px;
 	margin: 0 auto;
-	margin-left: -30px;
+	margin-left: -40px;
 	position: absolute;
 	overflow: hidden;
 }
@@ -155,9 +155,9 @@ li.leftThird small, li.middleThird small, li.rightThird small,
 	color: #79c7e0;
 	border: none;
 	padding: 10px 13px;
-	width: 90px;
+	width: 95px;
 	font-size: 20px;
-	margin-left: -25px;
+	margin-left: -40px;
 	margin-top: 50px;
 
 }
