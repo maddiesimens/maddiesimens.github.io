@@ -110,10 +110,11 @@ html{
 	font-weight:normal;
 	color:#ffffff;
 	font-size:18px;
+	font-family: "brandon-grotesque";
 }
 {* Custom Fonts Break Dropdown Selection in IE *}
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file{ 
-	font-family:inherit;
+	font-family:"brandon-grotesque";
 }
 .safari .wufoo select.select{
 	background:#79c7e0 url(../images/fieldbg.gif) repeat-x top;
