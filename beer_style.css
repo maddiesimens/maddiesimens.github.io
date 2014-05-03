@@ -257,31 +257,11 @@ h3{
 	text-align: center;
 }
 
-#date {
-	width: 30%;
+.details_third {
 	float: left;
+	width: 30%;
 	padding-top: 15px;
 }
-
-#time {
-	width: 30%;
-	float: left;
-	padding-top: 15px;
-}
-
-#location {
-	width: 30%;
-	float: left;
-	padding-top: 15px;
-}
-
-/*
-#sixth{
-	background: #ccc;
-	height: 400px;
-	margin: 0 auto;
-	padding: 40px 0 0 0;
-} */
 
 .story{
 	margin: 0 auto;
