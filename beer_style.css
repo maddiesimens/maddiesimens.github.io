@@ -112,12 +112,13 @@ h3 {
 }
 
 #third .text {
-	margin-top: 45px;
+	margin-top: 75px;
+	line-height: 100%;
 }
 
 #third_cups {
 	width: 250px;
-	margin-top: 25px;
+	margin-top: 35px;
 }
 
 #fourth {
