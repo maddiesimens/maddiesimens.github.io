@@ -1,73 +1,58 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
+body {
 	margin: 0;
 	min-width: 980px;
 	padding: 0;
+	font-family: "brandon-grotesque", Verdana;
+	color: #ffffff;
 }
 
-p{
+p {
 	margin: 0 0 20px 0;	
-	font-family: "brandon-grotesque";
-}
-
-p, ul{
-	font-family: "brandon-grotesque", "Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-size: 22px;
 	font-weight:200;
 	font-style:normal;
 }
 
-img{
-	border: 0;
-}
-
-h1, #pixels{
-	font-family:"Museo 900", Verdana, serif;
-	font-size-adjust:0.40;
-	font-weight:700;
-	font-style:normal;
-}
-
-h2{
-	font-family:"brandon-grotesque", Verdana, sans-serif;
+h2 {
 	font-size-adjust:0.531;
-	font-weight:500;
-	font-style:normal;
-}
-
-h3{
 	font-weight: normal;
 }
 
-#header h1, #pixels{
-	color: #48941A;
+h3 {
+	font-weight: normal;
 }
 
-.center{
-	font-size: 2.5em;
-	padding: 80px 0 0 0;
+.story {
+	margin: 0 auto;
+	min-width: 980px;
+	overflow: auto;
+	width: 980px;
+}
+
+.text {
+	margin: 0 auto;
+	margin-top: 235px;
+	width: 450px;
 	text-align: center;
+	font-size: 24px;
+	line-height: 150%;
 }
 
-#nav{
+#nav {
 	margin-top: 200px;
 	list-style: none;
 	position: fixed;
 	right: 20px;
 }
 
-#nav li{
+#nav li {
 	margin: 0 0 10px 0;	
 }
 
-#header, #intro, #second{
-	width: 100%;
-}
-
-#intro{
-	/* background:url(images/intro.jpg) 50% 0 no-repeat fixed; */
+#intro {
 	background-color: #FCE8B1;
 	color: white;
 	height: 600px;
@@ -105,54 +90,38 @@ h3{
 } */
 }
 
-#logo {
-	width: 200px;
-}
-
-.text #logo {
+#intro_logo {
 	margin-top: -55px;
 	width: 300px;
 }
 
-#second{
+#second {
 	background: url(img/second2.jpg) 50% 0 no-repeat fixed;
 	background-color: #B0DEED;
-	color: white;
 	height: 600px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
 }
 
-/*
-#second .bg{
-	background: url(images/trainers.png) 50% 0 no-repeat fixed;
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 900px;
-	z-index: 200;
-}
-*/
-
-#third{
+#third {
 	background: url(img/third1.jpg) 50% 0 no-repeat fixed;
 	background-color: #253F6F;
-	color: white;
 	height: 650px;
 	padding: 100px 0 0 0;	
 }
 
-#cups {
+#third .text {
+	margin-top: 45px;
+}
+
+#third_cups {
 	width: 250px;
 	margin-top: 25px;
 }
 
 #fourth {
-	/* background: url(images/third1.jpg) 50% 0 no-repeat fixed; */
 	background-color: #FC6B6B;
-	color: white;
 	height: 650px;
 	padding: 100px 0 0 0;	
 }
@@ -162,18 +131,8 @@ h3{
 	width: 675px;
 }
 
-#sixth {
-	/* background: url(images/third1.jpg) 50% 0 no-repeat fixed; */
-	background-color: #B0DEED;
-	color: white;
-	height: 650px;
-	padding: 100px 0 0 0;	
-}
-
-#fifth{
-	/* background: url(images/third1.jpg) 50% 0 no-repeat fixed; */
+#fifth {
 	background-color: #253F6F;
-	color: white;
 	height: 650px;
 	padding: 100px 0 0 0;	
 }
@@ -186,40 +145,13 @@ h3{
 	width: 900px;
 }
 
-#cup {
-	width: 175px;
-}
-
-/*
-.flipcup {
-	width: 110px;
-	padding-top: 150px;
-	padding-left: 50px;
-	padding-right: 50px;
-
-	/*
-    -webkit-transition-duration: 0.8s;
-    -moz-transition-duration: 0.8s;
-    -o-transition-duration: 0.8s;
-    transition-duration: 0.8s;
-
-    -webkit-transform-origin: bottom right;
-	-moz-transform-origin: bottom right
-	-ms-transform-origin: bottom right;
-	-o-transform-origin: bottom right;
-	transform-origin: bottom right;
-     
-    -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
-    -o-transition-property: -o-transform;
-    transition-property: transform;
-     
-    overflow:hidden; 
-} */
-
 #cup_container {
 	width: 725px;
 	margin: 80px auto 0 auto;
+}
+
+#fifth_cup {
+	width: 175px;
 }
 
 .flipcup {
@@ -239,10 +171,9 @@ h3{
     transition-property: transform;
      
     overflow:hidden;
- 
 }  
  
-.flipcup:hover  {
+.flipcup:hover {
     -webkit-transform:rotate(180deg);
     -moz-transform:rotate(180deg);
     -o-transform:rotate(180deg);
@@ -263,26 +194,12 @@ h3{
 	padding-top: 15px;
 }
 
-.story{
-	margin: 0 auto;
-	min-width: 980px;
-	overflow: auto;
-	width: 980px;
-}
-
-.text {
-	margin: 0 auto;
-	margin-top: 235px;
-	width: 450px;
-	text-align: center;
-	font-size: 24px;
-	line-height: 150%;
+#sixth {
+	background-color: #B0DEED;
+	height: 650px;
+	padding: 100px 0 0 0;	
 }
 
 #sixth .text {
 	margin-top: 0px;
-}
-
-#third .text {
-	margin-top: 45px;
 }
