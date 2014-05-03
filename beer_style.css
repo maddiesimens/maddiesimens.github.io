@@ -16,7 +16,7 @@ p {
 
 h2 {
 	font-size: 32px;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 h3 {
@@ -102,6 +102,10 @@ h3 {
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
+}
+
+#second .text {
+	width: 475px;
 }
 
 #third {
