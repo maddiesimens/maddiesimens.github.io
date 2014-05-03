@@ -132,8 +132,12 @@ h3 {
 }
 
 #fourth .text {
-	margin-top: 50px;
+	margin-top: 30px;
 	width: 675px;
+}
+
+#fourth h2 {
+	margin-bottom: 60px;
 }
 
 #fifth {
