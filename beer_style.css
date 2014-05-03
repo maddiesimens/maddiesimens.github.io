@@ -162,7 +162,7 @@ h3{
 	width: 675px;
 }
 
-#fifth {
+#sixth {
 	/* background: url(images/third1.jpg) 50% 0 no-repeat fixed; */
 	background-color: #B0DEED;
 	color: white;
@@ -170,7 +170,7 @@ h3{
 	padding: 100px 0 0 0;	
 }
 
-#sixth{
+#fifth{
 	/* background: url(images/third1.jpg) 50% 0 no-repeat fixed; */
 	background-color: #253F6F;
 	color: white;
@@ -178,11 +178,11 @@ h3{
 	padding: 100px 0 0 0;	
 }
 
-#sixth h2 {
+#fifth h2 {
 	margin-top: -195px;
 }
 
-#sixth .text {
+#fifth .text {
 	width: 900px;
 }
 
@@ -276,7 +276,7 @@ h3{
 }
 
 /*
-#fifth{
+#sixth{
 	background: #ccc;
 	height: 400px;
 	margin: 0 auto;
@@ -299,7 +299,7 @@ h3{
 	line-height: 150%;
 }
 
-#fifth .text {
+#sixth .text {
 	margin-top: 0px;
 }
 
