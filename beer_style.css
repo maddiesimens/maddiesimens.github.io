@@ -9,14 +9,14 @@ body {
 
 p {
 	margin: 0 0 20px 0;	
-	font-size: 22px;
+	font-size: 24px;
 	font-weight:200;
 	font-style:normal;
 }
 
 h2 {
 	font-size: 32px;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 h3 {
