@@ -6,9 +6,18 @@ a {
     border-width: 1.5px;
 }
 
+a:hover {
+    border-color: #1A1919;
+}
+
 a:visited {
     text-decoration: none;
     color: #1A1919;
+}
+
+a.smallcaps {
+    text-decoration: none;
+    border-bottom: hidden;
 }
 
 #splash {
