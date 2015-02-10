@@ -174,8 +174,17 @@ p {
     line-height: 34px
 }
 
+#experience {
+    width: 80%;
+}
+
+#social {
+    margin-left: 11%;
+}
+
 #contact {
-    margin-top: 110px;
+    margin-top: 115px;
+    margin-left: 20px;
     line-height: 
 }
 
