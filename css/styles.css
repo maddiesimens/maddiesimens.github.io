@@ -131,7 +131,7 @@ p {
 @media only screen and (max-width : 480px) {
 
 #splash {
-    height: 525px;
+    height: 550px;
 }
 
 #about {
@@ -175,13 +175,8 @@ p {
 }
 
 #contact {
-    margin-top: 125px;
+    margin-top: 110px;
     line-height: 
 }
 
-}
-
-/* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
-    
 }
