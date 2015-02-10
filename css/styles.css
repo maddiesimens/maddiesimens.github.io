@@ -36,6 +36,14 @@ a.smallcaps {
     width: 100%;
 }
 
+footer {
+    float: left;
+    margin-top: 160px;
+    height: 100px;
+    width: 100%;
+    background-color: #FAF9F5;
+}
+
 h1 {
     font-family: 'Whitney A', 'Whitney B';
     font-weight: 300;
@@ -123,6 +131,12 @@ p {
     margin-left: 11%;
     margin-bottom: 100px;
     width: 38%;
+}
+
+#copyright {
+    float: right;
+    margin-right: 11%;
+    margin-top: 30px;
 }
 
 /* Other devices */
