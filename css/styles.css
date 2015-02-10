@@ -60,7 +60,7 @@ p {
 
 .smallcaps {
     font-size: 18px;
-    line-height: 37px;
+    line-height: 43px;
     letter-spacing: 1.25px;
 }
 
@@ -80,8 +80,8 @@ p {
 }
 
 #third {
-    margin-top: 100px;
-    margin-bottom: 20px;
+    margin-top: 90px;
+    margin-bottom: 30px;
 }
 
 #intro {
