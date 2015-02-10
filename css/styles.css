@@ -38,7 +38,7 @@ a.smallcaps {
 
 h1 {
     font-family: 'Whitney A', 'Whitney B';
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 38px;
     color: #1A1919;
@@ -46,13 +46,13 @@ h1 {
 
 .medium {
     font-family: 'Whitney A', 'Whitney B';
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
 }
 
 h2 {
     font-family: 'Whitney A', 'Whitney B';
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 28px;
     line-height: 42px;
@@ -61,7 +61,7 @@ h2 {
 
 p {
     font-family: 'Whitney A', 'Whitney B';
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 22px;
     line-height: 37px;
