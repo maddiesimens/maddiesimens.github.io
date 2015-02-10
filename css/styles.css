@@ -38,7 +38,7 @@ a.smallcaps {
 
 h1 {
     font-family: 'Whitney A', 'Whitney B';
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     font-size: 38px;
     color: #1A1919;
@@ -46,7 +46,7 @@ h1 {
 
 .medium {
     font-family: 'Whitney A', 'Whitney B';
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
 }
 
