@@ -38,7 +38,7 @@ a.smallcaps {
 
 h1 {
     font-family: 'Whitney A', 'Whitney B';
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     font-size: 38px;
     color: #1A1919;
@@ -71,7 +71,7 @@ p {
 .smallcaps {
     font-size: 16px;
     line-height: 44px;
-    letter-spacing: 1.25px;
+    letter-spacing: 1px;
 }
 
 .separator {
@@ -140,6 +140,7 @@ p {
 
 h1 {
     font-size: 22px;
+    line-height: 28px;
 }
 
 h2 {
