@@ -1,1 +1,1 @@
-Welcome to my little corner of the Internet!
+Welcome to my little corner of the Internet.

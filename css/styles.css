@@ -165,3 +165,63 @@ p {
     font-weight: normal;
     font-style: normal;
 }
+
+
+/* Other devices */
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+#splash {
+    height: 525px;
+}
+
+#about {
+    margin-top: 45px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+#intro {
+    margin-top: 280px;
+}
+
+#first {
+    margin-top: 75px;
+}
+
+#second {
+    margin-top: 75px;
+}
+
+#third {
+    margin-top: 75px;
+}
+
+.smallcaps {
+    font-size: 16px;
+}
+
+#contact {
+    margin-top: 125px;
+}
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}
