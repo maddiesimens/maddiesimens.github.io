@@ -1,0 +1,151 @@
+#splash {
+    float: left;
+    margin-top: -25px;
+	height: 650px;
+	width: 100%;
+	background-color: #FAF9F5;
+}
+
+#about {
+    float: left;
+    margin-top: 120px;
+    height: 600px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Whitney A', 'Whitney B';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.medium {
+    font-family: 'Whitney A', 'Whitney B';
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    font-family: 'Whitney A', 'Whitney B';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+p {
+    font-family: 'Whitney A', 'Whitney B';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.smallcaps {
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: 1.25px;
+}
+
+.separator {
+    height: 5px;
+    width: 35px;
+    background-color: #FC583C;
+}
+
+#first {
+    margin-top: 100px;
+    margin-left: 3px;
+}
+
+#second {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 2px;
+}
+
+#third {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 2px;
+}
+
+#intro {
+    margin-top: 250px;
+    margin-left: 11%;
+}
+
+#headline {
+    margin-left: 11%;
+    width: 78%;
+}
+
+#experience {
+    float: left;
+    margin-left: 11%;
+    width: 68%;
+}
+
+#social {
+    float: left;
+    margin-left: 30px;
+    width: 117px;
+}
+
+#contact {
+    float: left;
+    margin-top: 100px;
+    margin-left: 11%;
+    width: 38%;
+}
+
+
+
+@font-face {
+    font-family: 'source_sans_prolight';
+    src: url('fonts/sourcesanspro-light-webfont.eot');
+    src: url('fonts/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-light-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-light-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-light-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('fonts/sourcesanspro-regular-webfont.eot');
+    src: url('fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_proextralight';
+    src: url('fonts/sourcesanspro-extralight-webfont.eot');
+    src: url('fonts/sourcesanspro-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-extralight-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-extralight-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-extralight-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-extralight-webfont.svg#source_sans_proextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_prosemibold';
+    src: url('fonts/sourcesanspro-semibold-webfont.eot');
+    src: url('fonts/sourcesanspro-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-semibold-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-semibold-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-semibold-webfont.svg#source_sans_prosemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

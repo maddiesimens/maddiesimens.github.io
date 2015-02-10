@@ -1,5 +1,13 @@
+#splash {
+	float: left;
+	position: relative;
+	margin-top: -100px;
+	height: 560px;
+	width: 100%;
+	background-color: #FAF9F5;
+}
 
-* {
+h1 {
 	@font-family: "source_san_prolight";
 }
 
