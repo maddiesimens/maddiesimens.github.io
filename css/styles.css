@@ -20,7 +20,7 @@ a:visited {
 
 #about {
     float: left;
-    margin-top: 120px;
+    margin-top: 90px;
     height: 600px;
     width: 100%;
 }
@@ -70,12 +70,12 @@ p {
 }
 
 #first {
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 3px;
 }
 
 #second {
-    margin-top: 100px;
+    margin-top: 90px;
     margin-bottom: 30px;
     margin-left: 2px;
 }
@@ -110,7 +110,7 @@ p {
 
 #contact {
     float: left;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 11%;
     margin-bottom: 100px;
     width: 38%;
