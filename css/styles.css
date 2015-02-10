@@ -176,6 +176,7 @@ p {
 
 #experience {
     width: 80%;
+    line-height: 40px;
 }
 
 #social {
@@ -183,9 +184,10 @@ p {
 }
 
 #contact {
+    width: 45%;
     margin-top: 115px;
     margin-left: 20px;
-    line-height: 
+    margin-bottom: 80px;
 }
 
 }
