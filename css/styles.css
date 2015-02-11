@@ -39,7 +39,7 @@ a.smallcaps {
 footer {
     float: left;
     margin-top: 180px;
-    height: 100px;
+    height: 120px;
     width: 100%;
     background-color: #FAF9F5;
 }
@@ -137,7 +137,7 @@ p {
 #copyright {
     float: right;
     margin-right: 11%;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 
