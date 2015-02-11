@@ -152,6 +152,10 @@ p {
     margin-top: 45px;
 }
 
+footer {
+    display: hidden;
+}
+
 h1 {
     font-size: 22px;
     line-height: 28px;
