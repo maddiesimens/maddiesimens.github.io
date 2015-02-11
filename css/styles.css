@@ -53,12 +53,6 @@ h1 {
     line-height: 48px;
 }
 
-.medium {
-    font-family: 'Whitney A', 'Whitney B';
-    font-weight: 500;
-    font-style: normal;
-}
-
 h2 {
     font-family: 'Whitney A', 'Whitney B';
     font-weight: 300;
@@ -75,6 +69,12 @@ p {
     font-size: 20px;
     line-height: 39px;
     color: #1A1919;
+}
+
+.medium {
+    font-family: 'Whitney A', 'Whitney B';
+    font-weight: 500;
+    font-style: normal;
 }
 
 .smallcaps {
@@ -140,8 +140,6 @@ p {
     margin-top: 30px;
 }
 
-/* Other devices */
-
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
@@ -169,6 +167,11 @@ p {
     line-height: 30px;
 }
 
+.smallcaps {
+    font-size: 14px;
+    line-height: 35px
+}
+
 #intro {
     margin-top: 280px;
 }
@@ -183,11 +186,6 @@ p {
 
 #third {
     margin-top: 75px;
-}
-
-.smallcaps {
-    font-size: 14px;
-    line-height: 35px
 }
 
 #experience {
