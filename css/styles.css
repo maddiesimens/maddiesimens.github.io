@@ -216,7 +216,6 @@ p {
 }
 
 /* Extra large displays */
-
 @media only screen and (min-width : 1440px) {
 
 .wrapper {
