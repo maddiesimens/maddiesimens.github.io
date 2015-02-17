@@ -1119,51 +1119,63 @@ Copyright (c) 2014 Daniel Eden
   animation-name: fadeInDown;
 }
 
-@-webkit-keyframes fadeInDownBig {
+@-webkit-keyframes fadeInSecond {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(0, -2000px, 0);
-            transform: translate3d(0, -2000px, 0);
+    -webkit-transform: translateY(-20px);
   }
 
   100% {
     opacity: 1;
-    -webkit-transform: none;
-            transform: none;
+    -webkit-transform: translateY(0);
   }
 }
 
-@keyframes fadeInDownBig {
+@-moz-keyframes fadeInSecond {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(0, -2000px, 0);
-            transform: translate3d(0, -2000px, 0);
+    -moz-transform: translateY(-20px);
   }
 
   100% {
     opacity: 1;
-    -webkit-transform: none;
-            transform: none;
+    -moz-transform: translateY(0);
   }
 }
 
-.fadeInDownBig {
-  -webkit-animation-name: fadeInDownBig;
-          animation-name: fadeInDownBig;
-}
-
-@-webkit-keyframes fadeInLeft {
+@-o-keyframes fadeInSecond {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(-100%, 0, 0);
-            transform: translate3d(-100%, 0, 0);
+    -o-transform: translateY(-20px);
   }
 
   100% {
     opacity: 1;
-    -webkit-transform: none;
-            transform: none;
+    -o-transform: translateY(0);
   }
+}
+
+@keyframes fadeInSecond {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInSecond {
+  -webkit-animation-name: fadeInSecond;
+  -webkit-animation-delay: .25s;
+  -moz-animation-name: fadeInSecond;
+  -moz-animation-delay: .25s;
+  -o-animation-name: fadeInSecond;
+  -o-animation-name: .25s;
+  animation-name: fadeInSecond;
+  animation-delay: .25s;
 }
 
 @keyframes fadeInLeft {
