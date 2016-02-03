@@ -114,7 +114,7 @@ h7 {
 
 h8 {
 	color: #C3C3C3;
-	font-family: CircularMedium;
+	font-family: Circular;
 	font-size: 14px;
 	float: left;
 	padding-top: 7px;
@@ -149,10 +149,18 @@ nav a {
 	display: none;
 }
 
+#other {
+	background-color: #FC8585;
+}
+
 p {
 	font-family: CenturySchoolbook;
 	font-size: 18px;
 	line-height: 28px;
+}
+
+#rdio {
+	background-color: #47A4D2;
 }
 
 .readmore .separator {
@@ -162,8 +170,6 @@ p {
 
 .readmore img {
 	width: 150px;
-
-
 	padding-top: 20px;
 
 }
@@ -177,6 +183,14 @@ p {
 
 .spacer {
 	height: 100px;
+}
+
+.splash_rdio {
+	width: 100%;
+	background-color: #47A4D2;
+	background-size: cover;
+	margin-top: 0px;
+	overflow: hidden;
 }
 
 .splash_wistia {
@@ -219,7 +233,7 @@ p {
 }
 
 .thumb:hover {
-	opacity: 0.8;
+	opacity: 0.6;
 }
 
 ul {
