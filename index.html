@@ -37,6 +37,15 @@
 
     </script>
 
+    <script>
+      var trackOutboundLink = function(url) {
+         ga('send', 'event', 'outbound', 'click', url, {
+           'transport': 'beacon',
+           'hitCallback': function(){document.location = url;}
+         });
+      }
+    </script>
+
 </head>
 <body>
 
@@ -88,10 +97,10 @@
       <div class="separator"></div>
 
       <footer>
-        <a href="https://twitter.com/maddiesimens"><img src="images/twitter.png" style="width:21px;"></a>    
-        <a href="https://www.instagram.com/maddie_simens/"><img src="images/instagram.png" style="width:19px;"></a>
-        <a href="https://www.linkedin.com/in/madelinesimens"><img src="images/linkedin.png" style="width:21px;"></a>
-        <a href="mailto:maddiesimens@gmail.com?subject=Hello"><img src="images/email.png" style="width:22px; padding-top:2px;"></a>
+        <a href="https://twitter.com/maddiesimens" onclick="trackOutboundLink('http://wistia.com/blog/designing-new-login-page'); return false;"><img src="images/twitter.png" style="width:21px;"></a>    
+        <a href="https://www.instagram.com/maddie_simens/" onclick="trackOutboundLink('https://www.instagram.com/maddie_simens/'); return false;"><img src="images/instagram.png" style="width:19px;"></a>
+        <a href="https://www.linkedin.com/in/madelinesimens" onclick="trackOutboundLink('https://www.linkedin.com/in/madelinesimens'); return false;"><img src="images/linkedin.png" style="width:21px;"></a>
+        <a href="mailto:maddiesimens@gmail.com?subject=Hello" onclick="trackOutboundLink('mailto:maddiesimens@gmail.com?subject=Hello'); return false;"><img src="images/email.png" style="width:22px; padding-top:2px;"></a>
       </footer>
 
 

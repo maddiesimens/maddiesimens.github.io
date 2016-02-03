@@ -37,6 +37,15 @@
 
     </script>
 
+    <script>
+      var trackOutboundLink = function(url) {
+         ga('send', 'event', 'outbound', 'click', url, {
+           'transport': 'beacon',
+           'hitCallback': function(){document.location = url;}
+         });
+      }
+    </script>
+
 </head>
 <body>
 
@@ -293,14 +302,14 @@
               <div class="offset-by-two eight columns">
                 <h6>READ MORE ABOUT MY WORK AT WISTIA</h6>
                 <div class="separator"></div>
-                <a href="http://wistia.com/blog/product-update-video-analytics" target="_blank">
+                <a href="http://wistia.com/blog/product-update-video-analytics" target="_blank" onclick="trackOutboundLink('http://wistia.com/blog/product-update-video-analytics'); return false;">
                   <img src="images/wistia_blog1.jpg" class="alignright thumb">
                   <h7>New Stats Are Here: Video Analytics Get a Major Update</h7>
                   <h8>Read about the launch on the Wistia Blog.</h8>
                 </a>
                 <div style="clear: both;"></div>
                 <div class="separator"></div>
-                <a href="http://wistia.com/blog/designing-new-login-page" target="_blank">
+                <a href="http://wistia.com/blog/designing-new-login-page" target="_blank" onclick="trackOutboundLink('http://wistia.com/blog/designing-new-login-page'); return false;">
                   <img src="images/wistia_blog2.jpg" class="alignright thumb">
                   <h7>Login Facelift: Designing a First Impression</h7>
                   <h8>A mini case study on another project.</h8>
