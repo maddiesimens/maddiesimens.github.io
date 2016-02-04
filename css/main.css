@@ -285,6 +285,11 @@ ul a:active {
 		width: 20px;
 	}
 
+	.readmore img {
+		float: left;
+		width: 100%;
+	}
+
 	.subtitle {
 		font-size: 18px;
 		padding-top: 5px;
