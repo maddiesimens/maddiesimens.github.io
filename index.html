@@ -15,9 +15,9 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/skeleton-16col.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/animate.css">
 
   <!-- Favicon
@@ -53,58 +53,67 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
       <nav>
-        <div class="row">
-          <div class="twelve columns">
-            <a href="index.html" class="alignleft">Maddie Simens</a>
-            <a href="mailto:maddiesimens@gmail.com?subject=Hello" class="alignright" id="nav_email">maddiesimens@gmail.com</a>
-            <img src="images/nav_email.png" class="alignright" id="nav_email_icon">
+        <div class="row group">
+          <div class="sixteen columns">
+            <div class="alignleft">
+              <a href="index.html">Maddie Simens</a>
+            </div>
+            <div class="alignright">
+              <a href="index.html" class="nav_active">Work</a>
+              <a href="about.html">About</a>
+              <a href="mailto:maddiesimens@gmail.com?subject=Hello">
+                <img src="images/nav_email.png" class="alignright" id="nav_email_icon">
+              </a>
+            </div>
             <div style="clear: both;"></div>
           </div>
         </div>
       </nav>
 
-      <h1>Hey, I'm Maddie.<br>Product design is my thing.</h1>
-
-      <div class="row" id="thumb_container">
-        <div class="four columns thumb">
-        <a href="wistia.html"><img src="images/preview1.png" class="u-max-full-width"></a>
-        </div>
-        <div class="four columns thumb">
-          <a href="rdio.html"><img src="images/preview2.png" class="u-max-full-width" id="rdio"></a>
-        </div>
-        <div class="four columns thumb">
-          <a href="other.html"><img src="images/preview3.png" class="u-max-full-width" id="other"></a>
+      <div class="row group">
+        <div class="sixteen columns">
+          <h1>Hey, I'm Maddie.<br>Product design is my thing.</h1>
         </div>
       </div>
 
-      <div class="separator"></div>
+      <div class="row group">
+        <div class="eight columns thumb">
+          <a href="wistia.html"><img src="images/preview1.png" class="u-max-full-width"></a>
+          <h9>Wistia</h9>
+        </div>
+        <div class="eight columns thumb">
+          <a href="rdio.html"><img src="images/preview2.png" class="u-max-full-width"></a>
+          <h9>&nbsp; &nbsp; Rdio</h9>
+        </div>
+        <div class="eight columns thumb">
+          <a href="other.html"><img src="images/preview3.png" class="u-max-full-width"></a>
+          <h9>Other</h9>
+        </div>
+        <div class="eight columns thumb" id="preview4">
+          <a href="mailto:maddiesimens@gmail.com?subject=Hello" onclick="trackOutboundLink('mailto:maddiesimens@gmail.com?subject=Hello');">
+            <img src="images/preview4.png" class="u-max-full-width">
+            <div id="cta">I've met some of my favorite<br>people over a cup of coffee.<br><br><span style="text-decoration:underline;">maddiesimens@gmail.com</span></div>
+          </a>
+      </div>
 
-      <div class="row" id="text_container">
-        <div class="four columns textrow">
-          <h2>Above all, I strive to be<br>thoughtful in my work.</h2>
-          <p>To me, thoughtful design is well-considered—
-          driven by strong opinions, loosely held. It is propelled by curiosity and constantly asking questions. When done right, it feels human.</p>
-        </div>
-        <div class="four columns textrow">
-          <p>I’ve spent some time learning to make the Internet a little more human at <a href="http://wistia.com/" target="_blank">Wistia</a> and Rdio. As a result, my experience lies in both consumer and enterprise design across mobile and web platforms. (Between you and me, I think mobile is my favorite.) I’m also into interior design and amateur photography.</p>
-        </div>
-        <div class="four columns textrow">
-          <p>This May, I’ll graduate from Northeastern with a degree in Business and Interaction Design, which roughly translates to “how to define problems and then solve them.” I’m currently exploring opportunities for a full-time position after graduation. Want to chat? Drop me a line at <a href="mailto:maddiesimens@gmail.com?subject=Hello">maddiesimens@gmail.com</a>.  
-          </p>
+      <div class="row group">
+        <div class="sixteen columns">
+          <div class="separator"></div>
         </div>
       </div>
 
-      <div class="separator"></div>
-
-      <footer>
-        <a href="https://twitter.com/maddiesimens" onclick="trackOutboundLink('http://wistia.com/blog/designing-new-login-page'); return false;"><img src="images/twitter.png" style="width:21px;"></a>    
-        <a href="https://www.instagram.com/maddie_simens/" onclick="trackOutboundLink('https://www.instagram.com/maddie_simens/'); return false;"><img src="images/instagram.png" style="width:19px;"></a>
-        <a href="https://www.linkedin.com/in/madelinesimens" onclick="trackOutboundLink('https://www.linkedin.com/in/madelinesimens'); return false;"><img src="images/linkedin.png" style="width:21px;"></a>
-        <a href="mailto:maddiesimens@gmail.com?subject=Hello" onclick="trackOutboundLink('mailto:maddiesimens@gmail.com?subject=Hello'); return false;"><img src="images/email.png" style="width:22px; padding-top:2px;"></a>
-      </footer>
-
-
+      <div class="row group">
+        <div class="sixteen columns">
+          <footer>
+            <a href="https://twitter.com/maddiesimens" target="_blank"><img src="images/twitter.png" style="width:21px;"></a>    
+            <a href="https://www.instagram.com/maddie_simens/" target="_blank"><img src="images/instagram.png" style="width:19px;"></a>
+            <a href="https://www.linkedin.com/in/madelinesimens" target="_blank"><img src="images/linkedin.png" style="width:21px;"></a>
+            <a href="mailto:maddiesimens@gmail.com?subject=Hello"><img src="images/email.png" style="width:22px; padding-top:2px;"></a>
+          </footer>
+        </div>
       </div>
+
+    </div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
