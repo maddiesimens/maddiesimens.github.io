@@ -233,6 +233,10 @@ nav a:hover {
 	width: 20px;
 }
 
+#other {
+	background-color: #FB8385;
+}
+
 p {
 	font-family: CenturySchoolbook;
 	font-size: 18px;
@@ -424,6 +428,10 @@ background: #999;
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
+
+	#cta {
+		top: 25%;
+	}
 
 	h1 {
 		font-size: 26px;
