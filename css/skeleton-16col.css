@@ -196,7 +196,10 @@ h1 { font-size: 24px; line-height: 36px;  letter-spacing: .25px;} /*
 /* Note: Design for a width of 320px */
 
 @media only screen and (max-width: 767px) {
-	.container { width: 100%; }
+	.container { 
+		width: 90%; 
+		margin: 0 5% 0 5%; 
+	}
 	.container .columns,
 	.container .column { margin: 0; }
 
