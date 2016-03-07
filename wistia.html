@@ -116,7 +116,7 @@
         <p>For a lot of Wistia users, these heatmaps were a gamechanger. A salesperson could upload a demo video to Wistia, add an email capture gate, and watch the heatmaps roll in—some with new email addresses attached! They could see which parts of the video new leads found most/least interesting and use the email to follow up. Great!</p><br>
 
         <h5>The Problem</h5>
-        <p>Still, we felt there was an opportunity to enrich heatmaps with even more data to make them even more valuable and actionable. New contact enrichment APIs like Clearbit and FullContact make it possible to turn a single email address into a whole lot more, from job title to Twitter handle. There was, however, one obvious roadblock: our svelte, 960 by 60 pixel heatmaps were already at capacity. There simply wasn’t any more screen real estate for new information.</p>
+        <p>Still, we felt there was an opportunity to enrich heatmaps with even more data to provide our users with more context. New contact enrichment APIs like Clearbit and FullContact make it possible to turn a single email address into a whole lot more, from job title to Twitter handle. There was, however, one obvious roadblock: our svelte, 960 by 60 pixel heatmaps were already at capacity. There simply wasn’t any more screen real estate for new information.</p>
       </div>
     </div>
     <div class="row group">
@@ -151,7 +151,7 @@
     </div>
   </div>
 </div>
-<div class="full_background">
+<div class="full_background wistia">
   <div class="container wistia">
     <div class="row group">
       <div class="sixteen columns">
@@ -176,7 +176,7 @@
     </div>
    </div>
    </div>
-   <div class="full_background">
+   <div class="full_background wistia">
     <div class="container wistia">
       <div class="row group">
         <div class="sixteen columns">
@@ -193,7 +193,7 @@
       <p>Wistia has always <a href="http://www.wistia.com/blog/beyond-funnelvision" target="_blank">believed in using video to build an engaged audience</a> over focusing solely on views and virality. The beauty of video marketing is its ability to reach out through a screen and say “Hey, we’re just a bunch of humans too.” Done right, it can build trust and an incredibly strong connection with your viewers. We’ve talked about this quite a bit in our external learning resources, but up until recently, didn’t really have a great reflection of our audience-centric approach in the app itself.</p><br>
 
       <h5>The Problem</h5>
-      <p>We’ve found that our Turnstile email collector is extremely valuable in helping Wistia users to identify their viewers and grow an audience. However, we had no central place for users to see this audience—viewers simply appeared as heatmap events scattered throughout our stats pages. It was hard to visualize the viewers and leads videos were generating and, by proxy, the value that Wistia provided in this area. So we set out to find a way to help Wistians practice what we preached—focus on using video to understand and grow your audience.</p><br>
+      <p>We’ve found that our Turnstile email collector is extremely valuable in helping Wistia users to identify their viewers and grow an audience. However, we had no central place for users to see this audience—viewers simply appeared as heatmap events scattered throughout our stats pages. It was hard to visualize the viewers and leads videos were generating and, by proxy, the value that Wistia provides in this area. So we set out to find a way to help Wistians practice what we preached—focus on using video to understand and grow your audience.</p><br>
 
       <h5>The Process</h5>
       <p>The initial idea for this project was to create a Leads page to view the email addresses your gated videos had collected, but things quickly evolved as we started sketching. Leads would undeniably be valuable on its own but felt like an incomplete picture. Viewers tagged with email addresses were only one part of a larger system. In fact, a Wistia audience can consist of three main buckets: anonymous viewers, viewers identified by Turnstile email gate, and viewers identified by other sources such as clicking a video link in an email or API tagging. When we sat down to sketch Leads, we kept returning to this system. If we really wanted users to be able to visualize and grow their audience, they’d need more than a list of emails—we’d need to provide more context.</p><br>
@@ -211,7 +211,7 @@
     </div>
   </div>
   </div>
-  <div class="full_background">
+  <div class="full_background wistia">
     <div class="container wistia">
       <div class="row group">
         <div class="sixteen columns">
@@ -251,7 +251,7 @@
       <h5>Background</h5>
       <p>If you use enterprise SaaS products, I’d wager that the majority of them have some sort of daily/weekly/monthly summary email. Even some consumer products are getting in on the action. It may come as a surprise then that Wistia, an 8+ year old enterprise product whose analytics feature is one of its most beloved, had no such email in 2015. The reason? Simply put, those emails tend to suck.<br><br>
 
-      While the idea is compelling, the execution usually disappoints. A small, informal survey of Wistia employees and customers confirmed the hypothesis that had given us pause for all those years. When asked which productss summary emails they actually opened—let alone acted upon—a dismal few could name even one.</p><br>
+      While the idea is compelling, the execution usually disappoints. A small, informal survey of Wistia employees and customers confirmed the hypothesis that had given us pause for all those years. When asked which products' summary emails they actually opened—let alone acted upon—a dismal few could name even one.</p><br>
 
       <h5>The Problem</h5>
       <p>Still, the idea remained compelling! Wistia customers had requested such an email, and we couldn’t help wondering: do product summary emails really have to suck? Could Wistia create one that was truly valuable for our users, and if so, what should it look like? My task was to answer these questions and hopefully design an email to help users maintain a better high-level understanding of the activity happening around their videos (without having to constantly log in to dig through Stats).</p><br>
@@ -299,10 +299,10 @@
     </div>
     </div>
     </div>
-    <div class="full_background">
+    <div class="full_background wistia">
       <div class="container wistia readmore">
         <div class="row group">
-          <div class="offset-by-two twelve columns">
+          <div class="offset-by-two twelve columns button">
             <h6>READ MORE ABOUT MY WORK AT WISTIA</h6>
             <div class="separator"></div>
             <a href="http://wistia.com/blog/product-update-video-analytics" target="_blank">
@@ -324,7 +324,9 @@
         </div>
       </div>
     </div>
-
+  <div class="button">
+    <a href="index.html"><button>Back to all projects</button></a>
+  </div>
   <footer>
     <a href="https://twitter.com/maddiesimens"><img src="images/twitter.png" style="width:21px;"></a>    
     <a href="https://www.instagram.com/maddie_simens/"><img src="images/instagram.png" style="width:19px;"></a>
@@ -332,6 +334,9 @@
     <a href="mailto:maddiesimens@gmail.com?subject=Hello"><img src="images/email.png" style="width:22px; padding-top:2px;"></a>
   </footer>
 </div>
+
+<!-- Scroll to top button -->
+  <a href="#" class="scrollToTop"></a>
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script>
@@ -368,6 +373,26 @@
       }
 
   }).scroll();
+
+  //Scroll to top button
+  $(document).ready(function(){
+  
+  //Check to see if the window is top if not then display button
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+      $('.scrollToTop').fadeIn();
+    } else {
+      $('.scrollToTop').fadeOut();
+    }
+  });
+  
+  //Click event to scroll to top
+  $('.scrollToTop').click(function(){
+    $('html, body').animate({scrollTop : 0},800);
+    return false;
+  });
+  
+});
   </script>
 
 <!-- End Document
