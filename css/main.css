@@ -8,6 +8,7 @@
 ==================================================
     #Basic elements
     #Generic styles
+    #Sticky navbar
     #Scroll to top
     #Footer
     #Index
@@ -100,7 +101,7 @@ h1 {	/* Used for headline on index.html */
 h3 {	/* Used for case study title i.e. "Wistia" */
 	color: #ffffff;
 	font-family: CircularMedium;
-	font-size: 48px;
+	font-size: 56px;
 	letter-spacing: .25px;
 	line-height: 115%;
 	text-align: center;
@@ -110,12 +111,15 @@ h3 {	/* Used for case study title i.e. "Wistia" */
 
 h4 {	/* Used for feature titles in case studies */
 	font-family: CircularMedium;
-	font-size: 28px;
+	font-size: 48px;
+	padding-bottom: 35px;
+	padding-top: 45px;
+	text-align: center;
 }
 
 h5 {	/* Used for feature subtitles in case studies */
 	color: #9B9B9B;
-	font-size: 24px;
+	font-size: 28px;
 }
 
 h6 {	/* Used for readmore header text */
@@ -202,6 +206,10 @@ p {
 	margin: 15px auto 30px auto;
 }
 
+.iphone {
+	max-width: 95%;
+}
+
 li {
 	color: #C3C3C3;
 	float: left;
@@ -213,6 +221,14 @@ li {
 
 .other li {
 	margin-right: 48px;
+}
+
+.margin_bottom {
+	margin-bottom: 0px;
+}
+
+.margin_top {
+	margin-top: -10px;
 }
 
 nav {
@@ -238,6 +254,12 @@ nav a:hover {
 	border-width: 0 0 0px;
 	box-shadow: inset 0 -4px 0 #BCE4FE;
 	color: inherit;
+}
+
+#nav {
+	background-color: #fff;
+	width: 100%;
+	z-index: 150;
 }
 
 #nav_email_icon {
@@ -288,7 +310,7 @@ nav a:hover {
 
 .subnav .separator {
 	margin-top: 45px;
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 
 .subtitle {
@@ -300,7 +322,7 @@ nav a:hover {
 	text-align: center;
 }
 
-.thumb {
+.thumb {	/* Case study previews on index.html and link previews in readmore */
 	margin-top: 15px;
 	opacity: 1;
     transition: opacity .25s ease-in-out;
@@ -318,17 +340,21 @@ thumb_email {
 }
 
 ul {
+	background-color: #fff;
+	margin: 0px auto;
 	padding-top: 50px;
+	width: 700px;
 }
 
 ul a {
 	color: #c3c3c3;
 	font-family: CircularMedium;
+	margin: 0px auto;
 	text-decoration: none;
 }
 
-ul a:hover,	
-ul a:active {
+#nav a:hover,	
+#nav a.active {
 	color: #313131;
 	border-color: #313131;
 	border-style: solid;
@@ -339,6 +365,21 @@ ul a:active {
 .u-max-full-width {
 	box-sizing: border-box; 
  	max-width: 100%;
+}
+
+
+/* #Sticky navbar
+================================================== */
+
+.main-nav-scrolled {
+  position: fixed;
+  margin-top: -25px;
+  width: 100%;
+  top: 0;
+}
+
+.sticky_fix {
+	padding-top: 90px;
 }
 
 
@@ -485,6 +526,10 @@ footer img {
 	background-color: #F2F2F2;
 }
 
+.rdio {
+	position: relative;
+}
+
 .splash_rdio {
 	background-color: #2593CE;
 	background-size: cover;
@@ -525,6 +570,14 @@ footer img {
 	h3 {
 		font-size: 40px;
 	}
+
+	h4 {	/* Used for feature titles in case studies */
+	font-family: CircularMedium;
+	font-size: 36px;
+	padding-bottom: 25px;
+	padding-top: 35px;
+	text-align: center;
+}
 
 	.readmore img {
 		float: left;
