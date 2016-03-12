@@ -80,20 +80,19 @@
   </div>
 </div>
 
-  <div class="container other">
+  <div id="nav" class="subnav other">
+    <ul>
+      <li id="streak"><a href="#" data-scroll="streak" class="active">STREAK APP</a></li>
+      <li id="current"><a href="#" data-scroll="current">CURRENT APP</a></li>
+      <li id="beautiful"><a href="#" data-scroll="beautiful">BEAUTIFUL THINGS</a></li>
+      <li id="donnie"><a href="#" data-scroll="donnie">DONNIE DARKO</a></li>
+      <li style="margin-right:0px;" id="whitney"><a href="#" data-scroll="whitney">WHITNEY</a></li>
+    </ul>
+    <div class="separator"></div>
+  </div>
 
-    <div class="row group">
-      <div class="offset-by-two twelve columns subnav">
-        <ul>
-          <li><a href="#" data-scroll="streak">STREAK APP</a></li>
-          <li><a href="#" data-scroll="current">CURRENT APP</a></li>
-          <li><a href="#" data-scroll="beautiful">BEAUTIFUL THINGS</a></li>
-          <li><a href="#" data-scroll="donnie">DONNIE DARKO</a></li>
-          <li style="margin-right:0px;"><a href="#" data-scroll="whitney">WHITNEY</a></li>
-        </ul>
-        <div class="separator"></div>
-      </div>
-    </div>
+<div class="wrapper">
+  <div class="container other">
     <div class="row group">
       <div class="offset-by-two twelve columns">
         <section id="streak" data-anchor="streak">
@@ -187,42 +186,67 @@
 
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Sticky nav -->
 <script>
-  $('ul a').on('click', function() {
+  var  mn = $("#nav");
+    intro = $(".wrapper");
+    mns = "main-nav-scrolled";
+    fix = "sticky_fix";
 
-      var scrollAnchor = $(this).attr('data-scroll'),
-          scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top - 28;
+  $(window).scroll(function() {
+    if( $(this).scrollTop() > 635 ) {
+      mn.addClass(mns);
+      intro.addClass(fix);
+    } else {
+      mn.removeClass(mns);
+      intro.removeClass(fix);
+    }
+  });
+</script>
 
-      $('body,html').animate({
-          scrollTop: scrollPoint
-      }, 500);
+<!-- Change active nav item on scroll -->
+<script>
+$('#nav a').on('click', function() {
 
-      return false;
+    var scrollAnchor = $(this).attr('data-scroll'),
+        scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top - 80;
 
-  })
+    $('body,html').animate({
+        scrollTop: scrollPoint
+    }, 500);
 
+    return false;
+
+})
+
+$(document).ready(function(){
 
   $(window).scroll(function() {
       var windscroll = $(window).scrollTop();
-      if (windscroll >= 100) {
-          $('nav').addClass('fixed');
-          $('.wrapper section').each(function(i) {
-              if ($(this).position().top <= windscroll - 20) {
-                  $('nav a.active').removeClass('active');
-                  $('nav a').eq(i).addClass('active');
-              }
-          });
-
+      if (windscroll >= 1900 && windscroll <= 3100) {        
+          $('#streak a, #beautiful a, #donnie, #whitney a').removeClass('active');
+          $('#current a').addClass('active');
+      } else if (windscroll >= 3100 && windscroll <= 4100) {
+          $('#current a, #streak a, #tune a, #donnie a').removeClass('active');
+          $('#beautiful a').addClass('active');
+      } else if (windscroll >= 4100 && windscroll <= 5200) {
+          $('#beautiful a, #streak a, #current a, #whitney a').removeClass('active');
+          $('#donnie a').addClass('active');
+      } else if (windscroll >= 5200) {
+          $('#donnie a, #streak a, #current a, #beautiful a').removeClass('active');
+          $('#whitney a').addClass('active');
       } else {
-
-          $('nav').removeClass('fixed');
-          $('nav a.active').removeClass('active');
-          $('nav a:first').addClass('active');
+          $('#nav a.active').removeClass('active');
+          $('#nav a:first').addClass('active');
       }
+   });
+});
+</script>
 
-  }).scroll();
 
-  //Scroll to top button
+<!-- Scroll to top button -->
+<script>
   $(document).ready(function(){
   
   //Check to see if the window is top if not then display button
@@ -239,10 +263,8 @@
     $('html, body').animate({scrollTop : 0},800);
     return false;
   });
-  
 });
-  </script>
-
+</script>
 
 
     <!-- End Document
