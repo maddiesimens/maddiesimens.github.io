@@ -83,7 +83,7 @@
 
   <div id="nav" class="subnav">
     <ul>
-      <li id="introduction"><a href="#" data-scroll="introduction" class="active">INTRODUCTION</a></li>
+      <li id="introduction"><a href="#" data-scroll="introduction">INTRODUCTION</a></li>
       <li id="heatmaps"><a href="#" data-scroll="heatmaps">HEATMAPS</a></li>
       <li id="audience"><a href="#" data-scroll="audience">AUDIENCE</a></li>
       <li id="statsreport"><a href="#" data-scroll="statsreport">STATS REPORT</a></li>
@@ -365,7 +365,10 @@ $(document).ready(function(){
 
   $(window).scroll(function() {
       var windscroll = $(window).scrollTop();
-      if (windscroll >= 1800 && windscroll <= 7600) {        
+      if (windscroll >= 640 && windscroll <= 1800) {        
+          $('#heatmaps a, #audience a, #takeaways a').removeClass('active');
+          $('#introduction a').addClass('active');
+      } else if (windscroll >= 1800 && windscroll <= 7600) {        
           $('#introduction a, #audience a, #takeaways a').removeClass('active');
           $('#heatmaps a').addClass('active');
       } else if (windscroll >= 7600 && windscroll <= 12400) {
@@ -379,7 +382,6 @@ $(document).ready(function(){
           $('#takeaways a').addClass('active');
       } else {
           $('#nav a.active').removeClass('active');
-          $('#nav a:first').addClass('active');
       }
    });
 });

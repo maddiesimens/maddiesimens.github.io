@@ -82,7 +82,7 @@
 
   <div id="nav" class="subnav other">
     <ul>
-      <li id="streak"><a href="#" data-scroll="streak" class="active">STREAK APP</a></li>
+      <li id="streak"><a href="#" data-scroll="streak">STREAK APP</a></li>
       <li id="current"><a href="#" data-scroll="current">CURRENT APP</a></li>
       <li id="beautiful"><a href="#" data-scroll="beautiful">BEAUTIFUL THINGS</a></li>
       <li id="donnie"><a href="#" data-scroll="donnie">DONNIE DARKO</a></li>
@@ -130,39 +130,43 @@
       <div class="offset-by-two twelve columns">
         <section id="beautiful" data-anchor="beautiful">
         <br><h4>Print Posters</h4>
-        <h5>Beautiful Things</h5>
-        <p>Below are a few posters that I designed for print-focused design courses. The first is both the simplest and my favorite. In typography class, we were asked to create a poster design that could be printed on a letterpress featuring one of our favorite quotes. We then had the opportunity to vote for one poster to print together at a local press. To my delight, my design was selected, and I got to hand print this poster at Union Press in Somerville, MA. As a lifelong letterpress nerd, it was a dream come true.</p><br>
       </div>
     </div>
     <div class="row group">
       <div class="sixteen columns">
-        <img src="images/other_beautifulthings.png" class="u-max-full-width img_padding_small">
+        <img src="images/other_beautifulthings.png" class="u-max-full-width img_padding spacer_bottom">
+      </div>
+    </div>
+    <div class="row group">
+      <div class="offset-by-two twelve columns">
+        <h5>Beautiful Things</h5>
+        <p>These are a few posters that I designed for print-focused design courses. The first is both the simplest and my favorite. In typography class, we were asked to create a poster design that could be printed on a letterpress featuring one of our favorite quotes. We then had the opportunity to vote for one poster to print together at a local press. To my delight, my design was selected, and I got to hand print this poster at Union Press in Somerville, MA. As a lifelong letterpress nerd, it was a dream come true.</p><br>
       </div>
     </div>
     </section>
+    <div class="row group">
+      <div class="sixteen columns">
+        <img src="images/other_donnie.png" class="u-max-full-width img_padding spacer_bottom">
+      </div>
+    </div>
     <div class="row group">
       <div class="offset-by-two twelve columns">
         <section id="donnie" data-anchor="donnie">
-        <br><h5>Donnie Darko</h5>
+        <h5>Donnie Darko</h5>
         <p>For this project, I was tasked with re-designing the promo poster for one of the university theater program’s past productions. I chose Donnie Darko because it’s also one of my favorite films. This ended up being an extra challenge because the feedback on my earlier versions was that they were too reminiscent of the film. I needed to come up with a visual metaphor that felt true to the plot without relying on the imagery from the movie. This split image photograph represents the parallel universes that drive the story.</p><br>
-      </div>
-    </div>
-    <div class="row group">
-      <div class="sixteen columns">
-        <img src="images/other_donnie.png" class="u-max-full-width img_padding_small">
       </div>
     </div>
     </section>
     <div class="row group">
-      <div class="offset-by-two twelve columns">
-        <section id="whitney" data-anchor="whitney">
-        <br><h5>Whitney</h5>
-        <p>This piece is a classic typehouse poster for one of my favorite typefaces, Whitney by Tobias Frere-Jones. The uppercase ‘W’ takes center stage as one of Whitney’s most distinctive letterforms, and the dashed lines help to accentuate its humanist slants. The background contains a selection of other characters chosen for their special quirks that make Whitney unique.</p><br>
+      <div class="sixteen columns">
+        <img src="images/other_whitney.png" class="u-max-full-width img_padding spacer_bottom">
       </div>
     </div>
     <div class="row group">
-      <div class="sixteen columns">
-        <img src="images/other_whitney.png" class="u-max-full-width img_padding_small">
+      <div class="offset-by-two twelve columns">
+        <section id="whitney" data-anchor="whitney">
+        <h5>Whitney</h5>
+        <p>This piece is a classic typehouse poster for one of my favorite typefaces, Whitney by Tobias Frere-Jones. The uppercase ‘W’ takes center stage as one of Whitney’s most distinctive letterforms, and the dashed lines help to accentuate its humanist slants. The background contains a selection of other characters chosen for their special quirks that make Whitney unique.</p><br>
       </div>
     </div>
     </section>
@@ -224,8 +228,11 @@ $(document).ready(function(){
 
   $(window).scroll(function() {
       var windscroll = $(window).scrollTop();
-      if (windscroll >= 1900 && windscroll <= 3100) {        
-          $('#streak a, #beautiful a, #donnie, #whitney a').removeClass('active');
+      if (windscroll >= 640 && windscroll <= 1900) {        
+          $('#current a, #beautiful a, #donnie, #whitney a').removeClass('active');
+          $('#streak a').addClass('active');
+      } else if (windscroll >= 1900 && windscroll <= 3100) {
+          $('#beautiful a, #streak a, #tune a, #donnie a').removeClass('active');
           $('#current a').addClass('active');
       } else if (windscroll >= 3100 && windscroll <= 4100) {
           $('#current a, #streak a, #tune a, #donnie a').removeClass('active');
@@ -238,7 +245,6 @@ $(document).ready(function(){
           $('#whitney a').addClass('active');
       } else {
           $('#nav a.active').removeClass('active');
-          $('#nav a:first').addClass('active');
       }
    });
 });

@@ -83,7 +83,7 @@
 
 <div id="nav" class="subnav">
     <ul>
-      <li id="introduction"><a href="#" data-scroll="introduction" class="active">INTRODUCTION</a></li>
+      <li id="introduction"><a href="#" data-scroll="introduction">INTRODUCTION</a></li>
       <li id="rdioselect"><a href="#" data-scroll="select">RDIO SELECT</a></li>
       <li id="navigation"><a href="#" data-scroll="navigation">MOBILE NAVIGATION</a></li>
       <li id="tune"><a href="#" data-scroll="tune">TUNE</a></li>
@@ -501,7 +501,10 @@ $(document).ready(function(){
 
   $(window).scroll(function() {
       var windscroll = $(window).scrollTop();
-      if (windscroll >= 800 && windscroll <= 5700) {        
+      if (windscroll >= 640 && windscroll <= 800) {        
+          $('#rdioselect a, #navigation a, #tune a').removeClass('active');
+          $('#introduction a').addClass('active');
+      } else if (windscroll >= 800 && windscroll <= 5700) {        
           $('#introduction a, #navigation a, #tune a').removeClass('active');
           $('#rdioselect a').addClass('active');
       } else if (windscroll >= 5700 && windscroll <= 11600) {
@@ -515,7 +518,6 @@ $(document).ready(function(){
           $('#takeaways a').addClass('active');
       } else {
           $('#nav a.active').removeClass('active');
-          $('#nav a:first').addClass('active');
       }
    });
 });
