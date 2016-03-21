@@ -24,7 +24,15 @@
 /* #Basic elements
 ================================================== */
 body {
-	width: 100vw;
+	width: 100%;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.container {
+	width: 100%;
 }
 
 @font-face {
