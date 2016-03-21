@@ -23,6 +23,9 @@
 
 /* #Basic elements
 ================================================== */
+body {
+	width: 100vw;
+}
 
 @font-face {
 	font-family: Circular;
@@ -217,10 +220,6 @@ li {
 	font-size: 13px;
 	letter-spacing: 1px;
 	margin-right: 52px;
-}
-
-.other li {
-	margin-right: 48px;
 }
 
 .margin_bottom {
@@ -546,6 +545,10 @@ footer img {
 	background-color: #ee9a7f;
 }
 
+.other li {
+	margin-right: 40px;
+}
+
 .splash_other {
 	background-color: #EE9A7F;
 	background-size: cover;
@@ -572,11 +575,11 @@ footer img {
 	}
 
 	h4 {	/* Used for feature titles in case studies */
-	font-family: CircularMedium;
-	font-size: 36px;
-	padding-bottom: 25px;
-	padding-top: 35px;
-	text-align: center;
+		font-family: CircularMedium;
+		font-size: 36px;
+		padding-bottom: 25px;
+		padding-top: 35px;
+		text-align: center;
 }
 
 	.readmore img {
