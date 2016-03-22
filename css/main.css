@@ -23,6 +23,12 @@
 
 /* #Basic elements
 ================================================== */
+* {
+    margin:0;
+    padding: 0;
+}
+
+
 .test-wrapper {
 	width: 100% !important; 
 	background-color: red;
@@ -574,6 +580,23 @@ footer img {
 /* #Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
 
+	* {
+	    margin:0;
+	    padding: 0;
+	}
+
+	body {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.test-wrapper {
+		width: 100% !important; 
+		background-color: red;
+
+	}
+	
+
 	#cta {
 		top: 30%;
 	}
@@ -618,17 +641,6 @@ footer img {
 
 /* #Small Devices */
 @media only screen and (max-width: 767px) {
-
-	body {
-		margin: 0px;
-		padding: 0px;
-	}
-
-	.test-wrapper {
-		width: 100% !important; 
-		background-color: red;
-
-	}
 
 	#hero_container {
 		margin: 15px auto 75px auto;
