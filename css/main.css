@@ -23,21 +23,6 @@
 
 /* #Basic elements
 ================================================== */
-* {
-    margin:0;
-    padding: 0;
-}
-
-body {
-	width: 100%;
-	padding: 0px;
-	margin: 0px;
-}
-
-.wrapper {
-	width: 100%;
-}
-
 @font-face {
 	font-family: Circular;
 	src: url(../fonts/CircularStd-Book.otf);
@@ -58,6 +43,8 @@ body {
 * {
 	color: #4A4A4A;
 	-webkit-font-smoothing: antialiased;
+	margin:0;
+    padding: 0;
 }
 
 a {
@@ -71,6 +58,12 @@ a {
 
 a:hover {	
 	color: #6AC3FC; 
+}
+
+body {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
 }
 
 button {
@@ -601,7 +594,12 @@ footer img {
 		padding-bottom: 25px;
 		padding-top: 35px;
 		text-align: center;
-}
+	}
+
+	iframe {
+	  width: 100%;
+	  height: 85vh;
+	}
 
 	.readmore img {
 		float: left;
