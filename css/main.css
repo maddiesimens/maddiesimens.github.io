@@ -28,17 +28,10 @@
     padding: 0;
 }
 
-
-.test-wrapper {
-	width: 100vw !important; 
-
-}
-
 body {
 	width: 100%;
 	padding: 0px;
 	margin: 0px;
-
 }
 
 .wrapper {
@@ -587,12 +580,6 @@ footer img {
 	body {
 		margin: 0px;
 		padding: 0px;
-	}
-
-	.test-wrapper {
-		width: 100vw !important; 
-		background-color: red;
-
 	}
 
 	#cta {
