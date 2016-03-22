@@ -440,6 +440,7 @@ footer img {
 }
 
 #cta {	/* Used for email CTA on index.html */
+	color: white;
 	font-family: Circular;
 	font-size: 16px;
 	left: 0;
@@ -449,6 +450,7 @@ footer img {
     top: 35%;
     width: 100%;
 }
+
 
 #hero_container {
 	background-color: #BBE4FF;
@@ -551,7 +553,7 @@ footer img {
 }
 
 .other li {
-	margin-right: 90px;
+	margin-right: 69px;
 }
 
 .splash_other {
