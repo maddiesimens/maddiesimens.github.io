@@ -619,7 +619,7 @@ footer img {
 @media only screen and (max-width: 767px) {
 
 	.test-wrapper {
-		width: 100% !important; 
+		width: 767px !important; 
 		background-color: red;
 
 	}
