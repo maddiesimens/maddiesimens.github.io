@@ -51,411 +51,413 @@
 
 <!-- Primary Page Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div class="splash_rdio">
-  <div class="container wistia">
-      <nav>
-        <div class="row group">
-          <div class="sixteen columns">
-            <div class="alignleft">
-              <a href="index.html">Maddie Simens</a>
-            </div>
-            <div class="alignright">
-              <a href="index.html">Work</a>
-              <a href="about.html">About</a>
-              <a href="mailto:maddiesimens@gmail.com?subject=Hello">
-                <img src="images/email_white.png" class="alignright" id="nav_email_icon">
-              </a>
-            </div>
-            <div style="clear: both;"></div>
+<div class="test-wrapper">
+  <div class="splash_rdio">
+    <div class="container wistia">
+        <nav>
+          <div class="row group">
+            <div class="sixteen columns">
+              <div class="alignleft">
+                <a href="index.html">Maddie Simens</a>
+              </div>
+              <div class="alignright">
+                <a href="index.html">Work</a>
+                <a href="about.html">About</a>
+                <a href="mailto:maddiesimens@gmail.com?subject=Hello">
+                  <img src="images/email_white.png" class="alignright" id="nav_email_icon">
+                </a>
+              </div>
+              <div style="clear: both;"></div>
+          </div>
+        </div>
+      </nav>
+      <div class="row group">
+        <div class="sixteen columns">
+          <h3>Rdio</h3>
+          <div class="subtitle">Music, tuned to you</div>
+          <img src="images/rdio_splash.png" class="splash_image">
         </div>
       </div>
-    </nav>
-    <div class="row group">
-      <div class="sixteen columns">
-        <h3>Rdio</h3>
-        <div class="subtitle">Music, tuned to you</div>
-        <img src="images/rdio_splash.png" class="splash_image">
-      </div>
     </div>
   </div>
-</div>
 
 
-<div id="nav" class="subnav">
-    <ul>
-      <li id="introduction"><a href="#" data-scroll="introduction">INTRODUCTION</a></li>
-      <li id="rdioselect"><a href="#" data-scroll="select">RDIO SELECT</a></li>
-      <li id="navigation"><a href="#" data-scroll="navigation">MOBILE NAVIGATION</a></li>
-      <li id="tune"><a href="#" data-scroll="tune">TUNE</a></li>
-      <li style="margin-right:0px;" id="takeaways"><a href="#" data-scroll="takeaways">TAKEAWAYS</a></li>
-    </ul>
-    <div class="separator"></div>
-  </div>
-
-<div class="wrapper">
-  <div class="container rdio">
-    <div class="row group">
-      <div class="offset-by-two twelve columns">
-        <section id="introduction" data-anchor="introduction">
-        <h4 data-anchor="introduction">Introduction</h4>
-        <p>In 2014, I spent six months as a UX design co-op at Rdio, working on a product I loved while learning from one of the most talented teams I’ve met. I worked closely with Rdio’s senior UX designer, Mike Towber, and the rest of the product team as designs progressed from concept to launch. My role was primarily to work on the problem-solving phase of new features through the design of user flows, wireframes, and high-fidelity prototypes using tools like Sketch, Marvel, and Pixate. The goal for most of my projects was to further tailor Rdio to different listening preferences while continually strengthening the core user experience. These projects included a new subscription tier called Rdio Select, a redesign of the mobile app's navigation, and a personalization feature called Tune.</p><br>
-      </div>
+  <div id="nav" class="subnav">
+      <ul>
+        <li id="introduction"><a href="#" data-scroll="introduction">INTRODUCTION</a></li>
+        <li id="rdioselect"><a href="#" data-scroll="select">RDIO SELECT</a></li>
+        <li id="navigation"><a href="#" data-scroll="navigation">MOBILE NAVIGATION</a></li>
+        <li id="tune"><a href="#" data-scroll="tune">TUNE</a></li>
+        <li style="margin-right:0px;" id="takeaways"><a href="#" data-scroll="takeaways">TAKEAWAYS</a></li>
+      </ul>
+      <div class="separator"></div>
     </div>
-    </section>
-    <div class="row group">
-      <div class="offset-by-two twelve columns">
-        <section id="select" data-anchor="select">
-        <h4>Rdio Select</h4>
-        <p>Prior to my co-op, Rdio had a two-tier pricing model: Free and Unlimited. The Free plan gave users ad-supported access to Rdio’s full catalog on the web and stations on the mobile app. For $9.99 a month, Unlimited users got the keys to the whole kingdom—ad-free access to the full catalog on all devices and unlimited mobile downloads for offline listening. It was a model that had become standard in the streaming industry, but it lacked an offering for more price-sensitive listeners. Recognizing this untapped potential, the team had begun to plan a new price tier around the time I joined, and thus my first project was born.<br><br>
 
-        This third tier was Rdio Select: a mid-range subscription plan that cost only $3.99 a month. For the cost of a coffee, users could remove ads from mobile stations and keep 25 song downloads for offline listening—they could download new songs to replace old ones, so long as the number didn’t exceed 25.</p><br>
-      </div>
-    </div>
-  </div>
-<div class="full_background rdio_blue">
-  <div class="container rdio">
-    <div class="row group">
-      <div class="eight columns">
-        <img src="images/select2.png" class="img_padding iphone" style="padding-bottom:45px; padding-top:35px">
-      </div>
-    </div>
-  <div class="row group">
-    <div class="eight columns">
-      <div class="spacer"></div>
-      <h5>The Problem</h5>
-      <p>The most obvious change in the product would be to the upgrade flow, but the Select plan would also require a new piece of UI for subscribers’ rotating collection of 25 downloads. Our current Downloads interface was optimized for Unlimited users who could download as much music as they desired, but it wasn’t as well-suited for users who would be managing a single list of 25 songs. It was hard to get a sense for how many songs you currently had downloaded and unclear which songs would be replaced, or when. Bottomline: it didn't give users any sense of control.</p><br>
-
-      <h5>The Process</h5>
-      <p>One of the most challenging and interesting constraints for this project was that we needed to re-spec the parameters multiple times as our team negotiated the licensing points with the music labels. One particularly uncertain feature was offline stations—for most of the project, we were operating under the assumption that Select subscribers would also be able to download as many stations as they desired (within phone storage constraints) in addition to their 25 songs. If you used Rdio Select after launch, you’ll have noticed that this feature didn't make the cut for v1.</p>
-    </div>
-  </div>
-</div>
-</div>
-  <div class="container rdio">
-    <div class="row group">
+  <div class="wrapper">
+    <div class="container rdio">
+      <div class="row group">
         <div class="offset-by-two twelve columns">
-          <p>Some of my first Select designs incorporated a pattern currently used elsewhere in the app—two tabs at the top of the screen that switched between views. This got us a step closer to giving users a sense of control by separating limited songs from unlimited stations and felt aligned with the rest of the app—finite items such as playlists presented songs as a list while items that could be lazy-loaded infinitely, such as Trending, employed the grid.</p><br>
+          <section id="introduction" data-anchor="introduction">
+          <h4 data-anchor="introduction">Introduction</h4>
+          <p>In 2014, I spent six months as a UX design co-op at Rdio, working on a product I loved while learning from one of the most talented teams I’ve met. I worked closely with Rdio’s senior UX designer, Mike Towber, and the rest of the product team as designs progressed from concept to launch. My role was primarily to work on the problem-solving phase of new features through the design of user flows, wireframes, and high-fidelity prototypes using tools like Sketch, Marvel, and Pixate. The goal for most of my projects was to further tailor Rdio to different listening preferences while continually strengthening the core user experience. These projects included a new subscription tier called Rdio Select, a redesign of the mobile app's navigation, and a personalization feature called Tune.</p><br>
+        </div>
+      </div>
+      </section>
+      <div class="row group">
+        <div class="offset-by-two twelve columns">
+          <section id="select" data-anchor="select">
+          <h4>Rdio Select</h4>
+          <p>Prior to my co-op, Rdio had a two-tier pricing model: Free and Unlimited. The Free plan gave users ad-supported access to Rdio’s full catalog on the web and stations on the mobile app. For $9.99 a month, Unlimited users got the keys to the whole kingdom—ad-free access to the full catalog on all devices and unlimited mobile downloads for offline listening. It was a model that had become standard in the streaming industry, but it lacked an offering for more price-sensitive listeners. Recognizing this untapped potential, the team had begun to plan a new price tier around the time I joined, and thus my first project was born.<br><br>
+
+          This third tier was Rdio Select: a mid-range subscription plan that cost only $3.99 a month. For the cost of a coffee, users could remove ads from mobile stations and keep 25 song downloads for offline listening—they could download new songs to replace old ones, so long as the number didn’t exceed 25.</p><br>
+        </div>
+      </div>
+    </div>
+  <div class="full_background rdio_blue">
+    <div class="container rdio">
+      <div class="row group">
+        <div class="eight columns">
+          <img src="images/select2.png" class="img_padding iphone" style="padding-bottom:45px; padding-top:35px">
         </div>
       </div>
     <div class="row group">
-      <div class="offset-by-two six columns">
-        <img src="images/select4a.png" class="u-max-full-width img_padding">
-      </div>
-    </div>
-    <div class="row group">
-      <div class="six columns">
-        <img src="images/select4b.png" class="u-max-full-width img_padding">
-      </div>
-    </div>
-    <div class="row group">
-      <div class="offset-by-two twelve columns">
-        <br><p>We found this option to have two major flaws: users couldn’t get a feel for their downloaded songs and stations in a single view, and the tab filter was a pattern we were hoping to phase out of the app.</p><br>
+      <div class="eight columns">
+        <div class="spacer"></div>
+        <h5>The Problem</h5>
+        <p>The most obvious change in the product would be to the upgrade flow, but the Select plan would also require a new piece of UI for subscribers’ rotating collection of 25 downloads. Our current Downloads interface was optimized for Unlimited users who could download as much music as they desired, but it wasn’t as well-suited for users who would be managing a single list of 25 songs. It was hard to get a sense for how many songs you currently had downloaded and unclear which songs would be replaced, or when. Bottomline: it didn't give users any sense of control.</p><br>
+
+        <h5>The Process</h5>
+        <p>One of the most challenging and interesting constraints for this project was that we needed to re-spec the parameters multiple times as our team negotiated the licensing points with the music labels. One particularly uncertain feature was offline stations—for most of the project, we were operating under the assumption that Select subscribers would also be able to download as many stations as they desired (within phone storage constraints) in addition to their 25 songs. If you used Rdio Select after launch, you’ll have noticed that this feature didn't make the cut for v1.</p>
       </div>
     </div>
   </div>
-</div>
-<div class="container rdio">
-  <div class="row group">
-      <div class="offset-by-two six columns">
-        <img src="images/select5a.png" class="u-max-full-width img_padding">
-      </div>
-    </div>
-    <div class="row group">
-      <div class="six columns">
-        <img src="images/select5b.png" class="u-max-full-width img_padding">
-      </div>
-    </div>
-    <div class="row group">
-      <div class="offset-by-two twelve columns">
-        <br><p>This version held on to the differentiated layouts but brought songs and stations onto one screen. It solved the previous iteration’s problems but introduced a new flaw: the hierarchy gave preference to songs over stations, forcing stations-focused subscribers to constantly scroll past songs to get to the stuff they cared about.</p><br>
-      </div>
-    </div>
-</div>
-<div class="full_background rdio_blue">
-  <div class="container rdio">
-    <div class="row group">
-      <div class="eight columns">
-        <div class="spacer_small"></div>
-        <img src="images/select6a.png" class=" iphone img_padding" style="padding-bottom:10px;">
-      </div>
-    </div>
-    <div class="row group">
-      <div class="eight columns">
-        <div class="spacer_small"></div>
-        <img src="images/select6b.png" class="alignright iphone img_padding" style="padding-bottom:10px;">
-      </div>
-    </div>
-    <div class="row group">
-      <div class="offset-by-two twelve columns">
-        <br><h5>The Solution</h5>
-        <p>The final design rolls up song downloads into a custom “Select 25” item at the top of the screen that looks similar to a playlist when opened. Station downloads flow below the Select 25 in an unlimited grid. At a glance, listeners can see how many songs and stations they’ve downloaded on a single page. Both item types are given equal weight, and if a user has only downloaded one type, the other’s section can simply disappear. The detail view of Select 25 provides listeners with a numbered list of their current song downloads so that there is no question about when or which songs will be replaced.</p>
-        <div class="spacer_small"></div>
-    </div> 
   </div>
-</div>
-</div>
-</section>
-<section id="navigation" data-anchor="navigation">
-  <div class="container rdio">
-    <div class="row group">
-      <div class="offset-by-two twelve columns">
-        <h4>Mobile Navigation</h4>
-          <p>When I began this project, the mobile app's primary navigation mechanism was a hamburger menu. By now, I think most product designers are familiar with the <a href="http://deep.design/the-hamburger-menu/" target="_blank">woes</a> <a href="http://mor10.com/hamburger-bad/" target="_blank">of</a> <a href="http://techcrunch.com/2014/05/24/before-the-hamburger-button-kills-you/" target="_blank">the</a> <a href="https://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus/" target="_blank">hamburger</a> <a href="http://jxnblk.tumblr.com/post/36218805036/hamburgers-basements-why-not-to-use-left-nav" target="_blank">menu.</a> Ours was working overtime, housing 14 discrete navigation items.<br></p>
+    <div class="container rdio">
+      <div class="row group">
+          <div class="offset-by-two twelve columns">
+            <p>Some of my first Select designs incorporated a pattern currently used elsewhere in the app—two tabs at the top of the screen that switched between views. This got us a step closer to giving users a sense of control by separating limited songs from unlimited stations and felt aligned with the rest of the app—finite items such as playlists presented songs as a list while items that could be lazy-loaded infinitely, such as Trending, employed the grid.</p><br>
+          </div>
+        </div>
+      <div class="row group">
+        <div class="offset-by-two six columns">
+          <img src="images/select4a.png" class="u-max-full-width img_padding">
         </div>
       </div>
       <div class="row group">
-      <div class="offset-by-four eight columns">
-        <img src="images/nav1b.png" class="u-max-full-width img_padding">
-        <div class="caption">The incumbent hamburger sidenav, even more items were below the fold</div>
+        <div class="six columns">
+          <img src="images/select4b.png" class="u-max-full-width img_padding">
+        </div>
       </div>
-    </div>
-    <div class="row group">
-      <div class="offset-by-two twelve columns">
-        <h5>The Problem</h5>
-        <p>Navigating the app could be slow and cumbersome. Users constantly had to open the sidenav and were promptly overwhelmed by its contents and lack of hierarchy. This also hurt engagement—features buried within the sidenav suffered from the “out of sight, out of mind” effect. My goal for this project was to reimagine our mobile navigation to boost speed, ease of use, and engagement throughout the app.</p><br>
-      </div>
-    </div>
-    <div class="row group">
-      <div class="offset-by-two twelve columns">
-        <h5>The Process</h5>
-        <p>The first place my mind went was to the bottom tab nav employed by so many iOS apps. Its limited horizontal space forces prioritization and clarity while providing speed and visibility. For most apps, switching from the hamburger to a bottom nav is a no-brainer. For us, it was less straightforward because the Rdio player already occupied the bottom of the screen. Other music apps have attempted to tackle this problem with varying degrees of success. Soundcloud creates a tab item to access the player when it’s in use while Apple Music stacks the two bars.<br></p>
-      </div>
-    </div>
-    <div class="row group">
-      <div class="one-third column">
-        <img src="images/soundcloud1.png" class="u-max-full-width img_padding">
-        <div class="caption">Soundcloud, without player</div>
-      </div>
-    </div>
-    <div class="row group">
-      <div class="one-third column">
-        <img src="images/soundcloud2.png" class="u-max-full-width img_padding">
-        <div class="caption">Soundcloud, with player</div>
-      </div>
-    </div>
-    <div class="row group">
-      <div class="one-third column">
-        <img src="images/applemusic.png" class="u-max-full-width img_padding">
-        <div class="caption">Apple Music</div>
+      <div class="row group">
+        <div class="offset-by-two twelve columns">
+          <br><p>We found this option to have two major flaws: users couldn’t get a feel for their downloaded songs and stations in a single view, and the tab filter was a pattern we were hoping to phase out of the app.</p><br>
+        </div>
       </div>
     </div>
   </div>
-<div class="full_background rdio_blue">
   <div class="container rdio">
     <div class="row group">
-      <div class="offset-by-two twelve columns">
-        <div class="spacer_small"></div>
-        <p>We decided to table the bottom nav because our player was core to the Rdio experience on both mobile and web. It served as a constant across platforms, setting context and allowing immediate access to your current listening activity. It was arguably the most important piece of the app, and we felt we should design the new navigation around the player rather than shoehorn it into an ill-fitting pattern.</p><br>
+        <div class="offset-by-two six columns">
+          <img src="images/select5a.png" class="u-max-full-width img_padding">
+        </div>
       </div>
-    </div>
-    <div class="row group">
-      <div class="three columns">
-        <img src="images/nav2.png" class="u-max-full-width img_padding">
+      <div class="row group">
+        <div class="six columns">
+          <img src="images/select5b.png" class="u-max-full-width img_padding">
+        </div>
       </div>
-    </div>
-    <div class="row group">
-      <div class="three columns">
-        <img src="images/nav3.png" class="u-max-full-width img_padding">
+      <div class="row group">
+        <div class="offset-by-two twelve columns">
+          <br><p>This version held on to the differentiated layouts but brought songs and stations onto one screen. It solved the previous iteration’s problems but introduced a new flaw: the hierarchy gave preference to songs over stations, forcing stations-focused subscribers to constantly scroll past songs to get to the stuff they cared about.</p><br>
+        </div>
       </div>
-    </div>
-    <div class="row group">
-      <div class="ten columns">
-        <img src="images/nav4.png" class="u-max-full-width img_padding_small">
-        <div class="spacer_small"></div>
-      </div>
-    </div>
   </div>
-</div>
-  <div class="container rdio">
-    <div class="row group">
-      <div class="eight columns" style="padding-top:20px;">
-        <iframe src="https://marvelapp.com/60dhe7?emb=1" width="402" height="823" allowTransparency="true" frameborder="0"></iframe>
-        <div class="spacer_small"></div>
+  <div class="full_background rdio_blue">
+    <div class="container rdio">
+      <div class="row group">
+        <div class="eight columns">
+          <div class="spacer_small"></div>
+          <img src="images/select6a.png" class=" iphone img_padding" style="padding-bottom:10px;">
+        </div>
       </div>
-    </div>
-    <div class="row group">
-      <div class="eight columns" style="padding-top:20px;">
-        <h5>Solution #1</h5>
-        <p>In the end, I presented two possible solutions. The first was a baby step, the second a bigger leap.<br><br>
-
-        This interactive prototype (go ahead, click around!) shows the first which improved upon our current navigation—it's still a hamburger menu, but radically simplified and modified to target specific issues. I reduced the number of items in the sidenav from 14 to 7 by reorganizing features into overarching “umbrellas.” Instead of surfacing Stations, New Releases, and Trending in the sidenav, for example, I grouped these features under a “Browse” umbrella that, when tapped, exposes these three features and allows the user to easily swipe between them. The umbrellas would also be sticky—if a user navigated to Browse and then swiped to Trending, they would land on Trending the next time they went to Browse.<br><br>
-
-        A secondary goal was to move the search bar out of the sidenav to be accessible throughout the app. This design does so by placing search in the top right corner of the screen—previously occupied by the scope feature which allowed users to filter a page by parameters like Overview, Albums & Songs, Artists, etc. I felt search was more valuable to most users so I placed the scope feature under the top navbar with a pull-to-reveal.<br></p>
+      <div class="row group">
+        <div class="eight columns">
+          <div class="spacer_small"></div>
+          <img src="images/select6b.png" class="alignright iphone img_padding" style="padding-bottom:10px;">
+        </div>
       </div>
-    </div>
-  </div>
-<div class="full_background rdio_light margin_bottom">
-  <div class="container rdio">
-    <div class="row group">
-      <div class="offset-by-two six columns">
-        <div class="spacer_small"></div>
-        <img src="images/nav1.png" class="u-max-full-width img_padding">
-      </div>
-    </div>
-    <div class="row group">
-      <div class="six columns">
-        <div class="spacer_small"></div>
-        <img src="images/nav5.png" class="u-max-full-width img_padding">
-      </div>
-    </div>
-    <div class="row group">
-      <div class="offset-by-two twelve columns">
-        <p>The original sidenav was so overloaded with text that users were unlikely to digest much at a glance. This new structure would increase speed and ease of use while boosting feature engagement.</p>
-        <div class="spacer_small"></div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="full_background rdio_blue margin_top">
-  <div class="container rdio">
-    <div class="row group">
-      <div class="eight columns">
-        <div class="spacer_small"></div>
-        <iframe src="https://marvelapp.com/92a21j?emb=1" width="402" height="823" allowTransparency="true" frameborder="0"></iframe>
-        <div class="spacer_small"></div>
-      </div>
-    </div>
-    <div class="row group">
-      <div class="eight columns">
-        <div class="spacer"></div>
-        <br><h5>Solution #2</h5>
-        <p>This second design took a bigger swing at the navigation problem by entirely doing away with the hamburger menu in favor of sliding tabs. The top navbar does all the heavy lifting here—its primary benefit being that all feature umbrellas are visible and top-of-mind at all times. Navigating the app is made even faster by allowing users to swipe between feature umbrellas, search, and their account settings. The player maintains its place at the bottom of the screen as the listeners’ omnipresent home base.<br><br>
-
-        The general consensus among the product team was that this second design was more forward-thinking and did the best job of meeting the project goals. This work unfortunately did not make its way into the Rdio app before it shut down, but I’m extremely grateful for the exercise in designing mobile navigation systems. I have a much stronger grasp on the strengths and weaknesses of various navigation mechanisms, and the added constraint of the bottom player pushed me to think beyond existing patterns.</p>
-      </div>
-    </div>
-</section>
-  <div class="container rdio">
-    <div class="row group">
-      <div class="offset-by-two twelve columns">
-      <section id="tune" data-anchor="tune">
-        <h4>Tune</h4>
-        <p>Rdio was designed to be a highly personalized listening experience. Users could help the app to learn their preferences by simply listening to music they liked or adding music to their Favorites. On a more granular level, users also had the ability to influence the songs played for them in Rdio-generated stations by tapping the “thumbs up” or “thumbs down” button on a station song.<br><br></p>
-
-        <h5>The Problem</h5>
-        <p>While separating favorites from thumbs was important to our personalization system, there was an opportunity to help the two work better together. Most listeners would probably want to perform both actions at once, and if it was a particularly good jam, a subscriber may want to download the song too. The team had also been thinking about allowing users to ban certain songs or artists from ever being recommended to them. Never want to hear another Pitbull song ever again? Me neither, let's make that a feature.<br><br>
-
-        My task was to present users with these additional tuning actions after tapping thumbs up/down on a station song. With the introduction of bans, I’d also need to create a destination for them to view and manage their banned music.<br></p>
-      </div>
-    </div>
-    <div class="row group">
-      <div class="offset-by-two twelve columns">
-        <br><h5>The Process</h5>
-        <p>We had originally thought to present three additional actions to users who had given a song a thumbs up: Favorite, Download, and Start Song Station. In practice, three actions felt too overwhelming. It also blurred the line between this feature and the action sheets that could already be revealed by long-pressing on a song.<br></p>
-      </div>
-    </div>
-    <div class="row group">
-      <div class="offset-by-four eight columns">
-        <img src="images/tune1.png" class="u-max-full-width img_padding_small">
-        <div class="caption">Long-pressing revealed this scrollable action sheet</div>
-      </div>
-    </div>
-    <div class="row group">
-      <div class="offset-by-two twelve columns">
-        <p>The tune feature was meant to be lightweight and effortless—it should feel like one continuous action for users who chose to take secondary action(s). The Tune actions would be triggered when a user tapped thumbs up or down and would disappear automatically if not engaged, or a user could immediately swipe it down.<br></p>
-      </div>
-    </div>
-    <div class="row group">
-      <div class="eight columns">
-        <img src="images/tune11.png" class="iphone img_padding_small">
-        <div class="caption">Thumbs down options</div>
-      </div>
-    </div>
-    <div class="row group">
-      <div class="eight columns">
-        <img src="images/tune10.png" class="iphone alignright img_padding_small">
-        <div class="caption">Thumbs up options</div>
-      </div>
-    </div>
-    <div class="row group">
-      <div class="offset-by-two twelve columns">
-        <p>The second piece of this project was the “Manage Bans” interface. The need was straightforward: give users a central place to view and edit their list of banned music. The tricky part was minimizing the cognitive dissonance around removing a ban. It’s a double negative problem—deleting a list item is usually a destructive action, but in this case the two negatives resulted in a positive. Removing a ban would bring that song or artist back into your Rdio experience.<br></p>
-      </div>
-    </div>
-    <div class="row group">
-      <div class="one-third column">
-        <img src="images/tune2.png" class="u-max-full-width img_padding spacer_top">
-      </div>
-    </div>
-    <div class="row group">
-      <div class="one-third column">
-        <img src="images/tune3.png" class="u-max-full-width img_padding spacer_top">
-      </div>
-    </div>
-    <div class="row group">
-      <div class="one-third column">
-        <img src="images/tune4.png" class="u-max-full-width img_padding spacer_top">
-      </div>
-    </div>
-    <div class="row group">
-      <div class="offset-by-two twelve columns">
-        <p>My first attempts used the same list editing pattern as our playlists. This is when we raised the concern about double negatives and decided to do some further exploration. The next designs are much more explicit about the actions a user can perform. The main weakness of these designs, however, was that they felt heavy-handed. Sure, they were more explicit, but they also made us wonder if we were underestimating our users.<br></p>
-      </div>
-    </div>
-    <div class="row group">
-      <div class="four columns">
-        <img src="images/tune5.png" class="u-max-full-width img_padding spacer_top spacer_bottom">
-      </div>
-    </div>
-    <div class="row group">
-      <div class="four columns">
-        <img src="images/tune6.png" class="u-max-full-width img_padding spacer_top spacer_bottom">
-      </div>
-    </div>
-    <div class="row group">
-      <div class="four columns">
-        <img src="images/tune7.png" class="u-max-full-width img_padding spacer_top spacer_bottom">
-      </div>
-    </div>
-    <div class="row group">
-      <div class="four columns">
-        <img src="images/tune8.png" class="u-max-full-width img_padding spacer_top spacer_bottom">
-      </div>
-    </div>
-  </div>
-<div class="full_background rdio_light">
-  <div class="container rdio">
-    <div class="row group">
-      <div class="eight columns">
-        <div class="spacer_small"></div>
-        <iframe src="https://marvelapp.com/3hi1cj?emb=1" width="402" height="823" allowTransparency="true" frameborder="0"></iframe>
-        <div class="spacer_small"></div>
-      </div>
-    </div>
-    <div class="row group">
-      <div class="eight columns">
-        <div class="spacer"></div>
-        <h5>The Solution</h5>
-        <p>Sometimes your first instinct is the right one. In the end, we decided to go with the original designs which drew from our existing playlist UI. When we compared the original designs against the new, more explicit iterations, it felt like we’d blown the potential double negative issue out of proportion. Rather than be too precious about reading into the subtleties, we felt it better to trust in the system with which users had already become familiar. If an issue did arise, we’d have the other designs in our back pocket.<br><br>
-
-        The final Tune menu incorporated four actions—users who tapped thumbs up were presented the option to also favorite and/or download that song, while those who tapped thumbs down could choose to ban that song or artist. The first time someone chose to ban a song/artist, they'd see a dialog explaining exactly what a ban entails and where they could undo it. The Tune menu interaction and overall feature flow are demonstrated in this interactive prototype created by recording a native Pixate prototype on my phone, converting that video to a GIF, and uploading that GIF into a Marvel project.</p>
-        </section>
-      </div>
-    </div>
-  </div>
-</div>
-  <div class="container rdio">
-    <div class="row group">
-      <div class="offset-by-two twelve columns">
-        <section id="takeaways" data-anchor="takeaways">
-        <h4>Takeaways</h4>
-        <p>My time at Rdio went a long way toward making me a stronger designer, both in practical design skills and in understanding how a product team should function. My team taught me the importance of sharing work early and often. I learned how to design a mobile navigation system, but more importantly, I also learned how to talk about and critique those designs. They also showed me what a truly thoughtful, robust design system looks like and how important it is to respect it. And finally, my time at Rdio gave me a chance to discover my love for designing for mobile. Mobile's unique combination of opportunities (like gesture-based interactions!) and constraints (like size!) became one of my new favorite puzzles.</p>
-        </section>
+      <div class="row group">
+        <div class="offset-by-two twelve columns">
+          <br><h5>The Solution</h5>
+          <p>The final design rolls up song downloads into a custom “Select 25” item at the top of the screen that looks similar to a playlist when opened. Station downloads flow below the Select 25 in an unlimited grid. At a glance, listeners can see how many songs and stations they’ve downloaded on a single page. Both item types are given equal weight, and if a user has only downloaded one type, the other’s section can simply disappear. The detail view of Select 25 provides listeners with a numbered list of their current song downloads so that there is no question about when or which songs will be replaced.</p>
+          <div class="spacer_small"></div>
       </div> 
-    <div class="row group">
-      <div class="offset-by-two twelve columns button">
-        <div class="separator"></div>
-        <a href="index.html"><button>Back to all projects</button></a>
-        <footer>
-          <a href="https://twitter.com/maddiesimens"><img src="images/twitter.png" style="width:21px;"></a>    
-          <a href="https://www.instagram.com/maddie_simens/"><img src="images/instagram.png" style="width:19px;"></a>
-          <a href="https://www.linkedin.com/in/madelinesimens"><img src="images/linkedin.png" style="width:21px;"></a>
-          <a href="mailto:maddiesimens@gmail.com?subject=Hello"><img src="images/email.png" style="width:22px; padding-top:2px;"></a>
-        </footer>
+    </div>
+  </div>
+  </div>
+  </section>
+  <section id="navigation" data-anchor="navigation">
+    <div class="container rdio">
+      <div class="row group">
+        <div class="offset-by-two twelve columns">
+          <h4>Mobile Navigation</h4>
+            <p>When I began this project, the mobile app's primary navigation mechanism was a hamburger menu. By now, I think most product designers are familiar with the <a href="http://deep.design/the-hamburger-menu/" target="_blank">woes</a> <a href="http://mor10.com/hamburger-bad/" target="_blank">of</a> <a href="http://techcrunch.com/2014/05/24/before-the-hamburger-button-kills-you/" target="_blank">the</a> <a href="https://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus/" target="_blank">hamburger</a> <a href="http://jxnblk.tumblr.com/post/36218805036/hamburgers-basements-why-not-to-use-left-nav" target="_blank">menu.</a> Ours was working overtime, housing 14 discrete navigation items.<br></p>
+          </div>
+        </div>
+        <div class="row group">
+        <div class="offset-by-four eight columns">
+          <img src="images/nav1b.png" class="u-max-full-width img_padding">
+          <div class="caption">The incumbent hamburger sidenav, even more items were below the fold</div>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="offset-by-two twelve columns">
+          <h5>The Problem</h5>
+          <p>Navigating the app could be slow and cumbersome. Users constantly had to open the sidenav and were promptly overwhelmed by its contents and lack of hierarchy. This also hurt engagement—features buried within the sidenav suffered from the “out of sight, out of mind” effect. My goal for this project was to reimagine our mobile navigation to boost speed, ease of use, and engagement throughout the app.</p><br>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="offset-by-two twelve columns">
+          <h5>The Process</h5>
+          <p>The first place my mind went was to the bottom tab nav employed by so many iOS apps. Its limited horizontal space forces prioritization and clarity while providing speed and visibility. For most apps, switching from the hamburger to a bottom nav is a no-brainer. For us, it was less straightforward because the Rdio player already occupied the bottom of the screen. Other music apps have attempted to tackle this problem with varying degrees of success. Soundcloud creates a tab item to access the player when it’s in use while Apple Music stacks the two bars.<br></p>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="one-third column">
+          <img src="images/soundcloud1.png" class="u-max-full-width img_padding">
+          <div class="caption">Soundcloud, without player</div>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="one-third column">
+          <img src="images/soundcloud2.png" class="u-max-full-width img_padding">
+          <div class="caption">Soundcloud, with player</div>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="one-third column">
+          <img src="images/applemusic.png" class="u-max-full-width img_padding">
+          <div class="caption">Apple Music</div>
+        </div>
+      </div>
+    </div>
+  <div class="full_background rdio_blue">
+    <div class="container rdio">
+      <div class="row group">
+        <div class="offset-by-two twelve columns">
+          <div class="spacer_small"></div>
+          <p>We decided to table the bottom nav because our player was core to the Rdio experience on both mobile and web. It served as a constant across platforms, setting context and allowing immediate access to your current listening activity. It was arguably the most important piece of the app, and we felt we should design the new navigation around the player rather than shoehorn it into an ill-fitting pattern.</p><br>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="three columns">
+          <img src="images/nav2.png" class="u-max-full-width img_padding">
+        </div>
+      </div>
+      <div class="row group">
+        <div class="three columns">
+          <img src="images/nav3.png" class="u-max-full-width img_padding">
+        </div>
+      </div>
+      <div class="row group">
+        <div class="ten columns">
+          <img src="images/nav4.png" class="u-max-full-width img_padding_small">
+          <div class="spacer_small"></div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+    <div class="container rdio">
+      <div class="row group">
+        <div class="eight columns" style="padding-top:20px;">
+          <iframe src="https://marvelapp.com/60dhe7?emb=1" width="402" height="823" allowTransparency="true" frameborder="0"></iframe>
+          <div class="spacer_small"></div>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="eight columns" style="padding-top:20px;">
+          <h5>Solution #1</h5>
+          <p>In the end, I presented two possible solutions. The first was a baby step, the second a bigger leap.<br><br>
+
+          This interactive prototype (go ahead, click around!) shows the first which improved upon our current navigation—it's still a hamburger menu, but radically simplified and modified to target specific issues. I reduced the number of items in the sidenav from 14 to 7 by reorganizing features into overarching “umbrellas.” Instead of surfacing Stations, New Releases, and Trending in the sidenav, for example, I grouped these features under a “Browse” umbrella that, when tapped, exposes these three features and allows the user to easily swipe between them. The umbrellas would also be sticky—if a user navigated to Browse and then swiped to Trending, they would land on Trending the next time they went to Browse.<br><br>
+
+          A secondary goal was to move the search bar out of the sidenav to be accessible throughout the app. This design does so by placing search in the top right corner of the screen—previously occupied by the scope feature which allowed users to filter a page by parameters like Overview, Albums & Songs, Artists, etc. I felt search was more valuable to most users so I placed the scope feature under the top navbar with a pull-to-reveal.<br></p>
+        </div>
+      </div>
+    </div>
+  <div class="full_background rdio_light margin_bottom">
+    <div class="container rdio">
+      <div class="row group">
+        <div class="offset-by-two six columns">
+          <div class="spacer_small"></div>
+          <img src="images/nav1.png" class="u-max-full-width img_padding">
+        </div>
+      </div>
+      <div class="row group">
+        <div class="six columns">
+          <div class="spacer_small"></div>
+          <img src="images/nav5.png" class="u-max-full-width img_padding">
+        </div>
+      </div>
+      <div class="row group">
+        <div class="offset-by-two twelve columns">
+          <p>The original sidenav was so overloaded with text that users were unlikely to digest much at a glance. This new structure would increase speed and ease of use while boosting feature engagement.</p>
+          <div class="spacer_small"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="full_background rdio_blue margin_top">
+    <div class="container rdio">
+      <div class="row group">
+        <div class="eight columns">
+          <div class="spacer_small"></div>
+          <iframe src="https://marvelapp.com/92a21j?emb=1" width="402" height="823" allowTransparency="true" frameborder="0"></iframe>
+          <div class="spacer_small"></div>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="eight columns">
+          <div class="spacer"></div>
+          <br><h5>Solution #2</h5>
+          <p>This second design took a bigger swing at the navigation problem by entirely doing away with the hamburger menu in favor of sliding tabs. The top navbar does all the heavy lifting here—its primary benefit being that all feature umbrellas are visible and top-of-mind at all times. Navigating the app is made even faster by allowing users to swipe between feature umbrellas, search, and their account settings. The player maintains its place at the bottom of the screen as the listeners’ omnipresent home base.<br><br>
+
+          The general consensus among the product team was that this second design was more forward-thinking and did the best job of meeting the project goals. This work unfortunately did not make its way into the Rdio app before it shut down, but I’m extremely grateful for the exercise in designing mobile navigation systems. I have a much stronger grasp on the strengths and weaknesses of various navigation mechanisms, and the added constraint of the bottom player pushed me to think beyond existing patterns.</p>
+        </div>
+      </div>
+  </section>
+    <div class="container rdio">
+      <div class="row group">
+        <div class="offset-by-two twelve columns">
+        <section id="tune" data-anchor="tune">
+          <h4>Tune</h4>
+          <p>Rdio was designed to be a highly personalized listening experience. Users could help the app to learn their preferences by simply listening to music they liked or adding music to their Favorites. On a more granular level, users also had the ability to influence the songs played for them in Rdio-generated stations by tapping the “thumbs up” or “thumbs down” button on a station song.<br><br></p>
+
+          <h5>The Problem</h5>
+          <p>While separating favorites from thumbs was important to our personalization system, there was an opportunity to help the two work better together. Most listeners would probably want to perform both actions at once, and if it was a particularly good jam, a subscriber may want to download the song too. The team had also been thinking about allowing users to ban certain songs or artists from ever being recommended to them. Never want to hear another Pitbull song ever again? Me neither, let's make that a feature.<br><br>
+
+          My task was to present users with these additional tuning actions after tapping thumbs up/down on a station song. With the introduction of bans, I’d also need to create a destination for them to view and manage their banned music.<br></p>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="offset-by-two twelve columns">
+          <br><h5>The Process</h5>
+          <p>We had originally thought to present three additional actions to users who had given a song a thumbs up: Favorite, Download, and Start Song Station. In practice, three actions felt too overwhelming. It also blurred the line between this feature and the action sheets that could already be revealed by long-pressing on a song.<br></p>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="offset-by-four eight columns">
+          <img src="images/tune1.png" class="u-max-full-width img_padding_small">
+          <div class="caption">Long-pressing revealed this scrollable action sheet</div>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="offset-by-two twelve columns">
+          <p>The tune feature was meant to be lightweight and effortless—it should feel like one continuous action for users who chose to take secondary action(s). The Tune actions would be triggered when a user tapped thumbs up or down and would disappear automatically if not engaged, or a user could immediately swipe it down.<br></p>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="eight columns">
+          <img src="images/tune11.png" class="iphone img_padding_small">
+          <div class="caption">Thumbs down options</div>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="eight columns">
+          <img src="images/tune10.png" class="iphone alignright img_padding_small">
+          <div class="caption">Thumbs up options</div>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="offset-by-two twelve columns">
+          <p>The second piece of this project was the “Manage Bans” interface. The need was straightforward: give users a central place to view and edit their list of banned music. The tricky part was minimizing the cognitive dissonance around removing a ban. It’s a double negative problem—deleting a list item is usually a destructive action, but in this case the two negatives resulted in a positive. Removing a ban would bring that song or artist back into your Rdio experience.<br></p>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="one-third column">
+          <img src="images/tune2.png" class="u-max-full-width img_padding spacer_top">
+        </div>
+      </div>
+      <div class="row group">
+        <div class="one-third column">
+          <img src="images/tune3.png" class="u-max-full-width img_padding spacer_top">
+        </div>
+      </div>
+      <div class="row group">
+        <div class="one-third column">
+          <img src="images/tune4.png" class="u-max-full-width img_padding spacer_top">
+        </div>
+      </div>
+      <div class="row group">
+        <div class="offset-by-two twelve columns">
+          <p>My first attempts used the same list editing pattern as our playlists. This is when we raised the concern about double negatives and decided to do some further exploration. The next designs are much more explicit about the actions a user can perform. The main weakness of these designs, however, was that they felt heavy-handed. Sure, they were more explicit, but they also made us wonder if we were underestimating our users.<br></p>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="four columns">
+          <img src="images/tune5.png" class="u-max-full-width img_padding spacer_top spacer_bottom">
+        </div>
+      </div>
+      <div class="row group">
+        <div class="four columns">
+          <img src="images/tune6.png" class="u-max-full-width img_padding spacer_top spacer_bottom">
+        </div>
+      </div>
+      <div class="row group">
+        <div class="four columns">
+          <img src="images/tune7.png" class="u-max-full-width img_padding spacer_top spacer_bottom">
+        </div>
+      </div>
+      <div class="row group">
+        <div class="four columns">
+          <img src="images/tune8.png" class="u-max-full-width img_padding spacer_top spacer_bottom">
+        </div>
+      </div>
+    </div>
+  <div class="full_background rdio_light">
+    <div class="container rdio">
+      <div class="row group">
+        <div class="eight columns">
+          <div class="spacer_small"></div>
+          <iframe src="https://marvelapp.com/3hi1cj?emb=1" width="402" height="823" allowTransparency="true" frameborder="0"></iframe>
+          <div class="spacer_small"></div>
+        </div>
+      </div>
+      <div class="row group">
+        <div class="eight columns">
+          <div class="spacer"></div>
+          <h5>The Solution</h5>
+          <p>Sometimes your first instinct is the right one. In the end, we decided to go with the original designs which drew from our existing playlist UI. When we compared the original designs against the new, more explicit iterations, it felt like we’d blown the potential double negative issue out of proportion. Rather than be too precious about reading into the subtleties, we felt it better to trust in the system with which users had already become familiar. If an issue did arise, we’d have the other designs in our back pocket.<br><br>
+
+          The final Tune menu incorporated four actions—users who tapped thumbs up were presented the option to also favorite and/or download that song, while those who tapped thumbs down could choose to ban that song or artist. The first time someone chose to ban a song/artist, they'd see a dialog explaining exactly what a ban entails and where they could undo it. The Tune menu interaction and overall feature flow are demonstrated in this interactive prototype created by recording a native Pixate prototype on my phone, converting that video to a GIF, and uploading that GIF into a Marvel project.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="container rdio">
+      <div class="row group">
+        <div class="offset-by-two twelve columns">
+          <section id="takeaways" data-anchor="takeaways">
+          <h4>Takeaways</h4>
+          <p>My time at Rdio went a long way toward making me a stronger designer, both in practical design skills and in understanding how a product team should function. My team taught me the importance of sharing work early and often. I learned how to design a mobile navigation system, but more importantly, I also learned how to talk about and critique those designs. They also showed me what a truly thoughtful, robust design system looks like and how important it is to respect it. And finally, my time at Rdio gave me a chance to discover my love for designing for mobile. Mobile's unique combination of opportunities (like gesture-based interactions!) and constraints (like size!) became one of my new favorite puzzles.</p>
+          </section>
+        </div> 
+      <div class="row group">
+        <div class="offset-by-two twelve columns button">
+          <div class="separator"></div>
+          <a href="index.html"><button>Back to all projects</button></a>
+          <footer>
+            <a href="https://twitter.com/maddiesimens"><img src="images/twitter.png" style="width:21px;"></a>    
+            <a href="https://www.instagram.com/maddie_simens/"><img src="images/instagram.png" style="width:19px;"></a>
+            <a href="https://www.linkedin.com/in/madelinesimens"><img src="images/linkedin.png" style="width:21px;"></a>
+            <a href="mailto:maddiesimens@gmail.com?subject=Hello"><img src="images/email.png" style="width:22px; padding-top:2px;"></a>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 </div>
   <!-- Scroll to top button -->
   <a href="#" class="scrollToTop"></a>

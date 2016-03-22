@@ -23,9 +23,13 @@
 
 /* #Basic elements
 ================================================== */
-body {
+.test-wrapper {
 	width: 100%;
 	background-color: red;
+}
+
+body {
+	width: 100%;
 
 }
 
