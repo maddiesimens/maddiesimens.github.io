@@ -24,8 +24,9 @@
 /* #Basic elements
 ================================================== */
 .test-wrapper {
-	width: 100%;
+	width: 100% !important; 
 	background-color: red;
+
 }
 
 body {
@@ -617,8 +618,10 @@ footer img {
 /* #Small Devices */
 @media only screen and (max-width: 767px) {
 
-	body {
-		padding: 0px;
+	.test-wrapper {
+		width: 100% !important; 
+		background-color: red;
+
 	}
 
 	#hero_container {
