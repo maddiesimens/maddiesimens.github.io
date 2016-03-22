@@ -30,8 +30,7 @@
 
 
 .test-wrapper {
-	width: 100% !important; 
-	background-color: red;
+	width: 100vw !important; 
 
 }
 
@@ -591,11 +590,10 @@ footer img {
 	}
 
 	.test-wrapper {
-		width: 100% !important; 
+		width: 100vw !important; 
 		background-color: red;
 
 	}
-	
 
 	#cta {
 		top: 30%;
