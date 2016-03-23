@@ -451,7 +451,6 @@ footer img {
     width: 100%;
 }
 
-
 #hero_container {
 	background-color: #BBE4FF;
 	margin: 15px auto 30px auto;
@@ -571,6 +570,10 @@ footer img {
 	* {
 	    margin:0;
 	    padding: 0;
+	}
+
+	#about_hero {
+		max-width: 375px;
 	}
 
 	body {
