@@ -213,15 +213,12 @@ $(document).ready(function(){
           $('#current a, #beautiful a, #donnie, #whitney a').removeClass('active');
           $('#streak a').addClass('active');
       } else if (windscroll >= 1900 && windscroll <= 3100) {
-          $('#beautiful a, #streak a, #tune a, #donnie a').removeClass('active');
-          $('#current a').addClass('active');
-      } else if (windscroll >= 3100 && windscroll <= 4100) {
           $('#current a, #streak a, #tune a, #donnie a').removeClass('active');
           $('#beautiful a').addClass('active');
-      } else if (windscroll >= 4100 && windscroll <= 5200) {
+      } else if (windscroll >= 3100 && windscroll <= 4100) {
           $('#beautiful a, #streak a, #current a, #whitney a').removeClass('active');
           $('#donnie a').addClass('active');
-      } else if (windscroll >= 5200) {
+      } else if (windscroll >= 4100) {
           $('#donnie a, #streak a, #current a, #beautiful a').removeClass('active');
           $('#whitney a').addClass('active');
       } else {
