@@ -548,6 +548,17 @@ footer img {
 /* #Other
 ================================================== */
 
+.h_frame {
+	width: 438px;
+	height: 930px;
+	overflow: hidden;
+	}
+
+.h_frame iframe {
+	width: 100%;
+	height: 100%;
+}
+
 #other {
 	background-color: #ee9a7f;
 }
@@ -585,9 +596,10 @@ footer img {
 		top: 30%;
 	}
 
-	.h_frame iframe {
-	    width: 350px;
-	    height: 744px;
+	.h_frame {
+		width: 350px;
+		height: 744px;
+		overflow: hidden;
 	}
 
 	h1 {
