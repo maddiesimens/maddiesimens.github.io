@@ -548,17 +548,6 @@ footer img {
 /* #Other
 ================================================== */
 
-.h_iframe {
-	width: 438px;
-	height: 930px;
-	overflow: hidden;
-	}
-
-.h_iframe iframe {
-	width: 100%;
-	height: 100%;
-}
-
 #other {
 	background-color: #ee9a7f;
 }
@@ -573,6 +562,21 @@ footer img {
 	margin-top: 0px;
 	overflow: hidden;
 	width: 100%;
+}
+
+.h_iframe {
+	position: relative;
+    padding-bottom: 47.09%;
+    height: 0;
+    overflow: hidden;
+}
+
+.h_iframe iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* #Extra Small Devices, Phones */ 
@@ -594,12 +598,6 @@ footer img {
 
 	#cta {
 		top: 30%;
-	}
-
-	.h_iframe {
-		width: 350px;
-		height: 744px;
-		overflow: hidden;
 	}
 
 	h1 {
