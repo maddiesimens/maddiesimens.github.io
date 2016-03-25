@@ -127,6 +127,7 @@ h4 {	/* Used for feature titles in case studies */
 h5 {	/* Used for feature subtitles in case studies */
 	color: #9B9B9B;
 	font-size: 28px;
+	line-height: 56px;
 }
 
 h6 {	/* Used for readmore header text */
