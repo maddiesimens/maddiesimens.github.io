@@ -552,6 +552,12 @@ footer img {
 	background-color: #ee9a7f;
 }
 
+.other iframe {
+	display: block;
+	margin: -35px auto 10px auto;
+	width: 90%;
+}
+
 .other li {
 	margin-right: 69px;
 }
