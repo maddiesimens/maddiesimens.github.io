@@ -108,8 +108,12 @@ p {
 	display: block;
 	height: 560px;
 	margin: 75px auto;
+	opacity: 1;
 	position: relative;
 	width: 434px;
+	transition: translate .9s ease-in-out;
+    -moz-transition: translate .9s ease-in-out;
+    -webkit-transition: translate .9s ease-in-out;
 }
 
 .second .note .content {
@@ -128,6 +132,7 @@ p {
 	position: relative;
 	width: 70%;
 	float: left;
+	transition: width 1s ease-in-out;
 }
 
 .second_b {
@@ -135,17 +140,16 @@ p {
 	color: #D40A22;
 	height: 710px;
 	margin: 0 auto;
-	position: relative;
+
+	top: 710px;
+	right: 0;
 	width: 30%;
 	float: left;
 	opacity: 1;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
-}
-
-.second_b:hover {
-	opacity: 0.8;
+    transition: width 1s ease-in-out;
 }
 
 .second_b .arrow {
@@ -154,6 +158,35 @@ p {
 	margin: 5px auto 0 15px;
 	width: 33px;
 }
+
+/* ---------------SIGN UP CLICK TRANSITION--------------- */
+
+.second_b.clicked {
+	width: 100%;
+}
+
+.second_a.clicked {
+	width: 0px;
+}
+
+.second_a .note.clicked {
+	-ms-transform: translate(-700px); /* IE 9 */
+   	-webkit-transform: translate(-700px); /* Safari */
+    transform: translate(-700px);
+    transition: transform 1s ease-in-out;
+}
+
+.signup.clicked {
+    -ms-transform: translate(-350px); /* IE 9 */
+   	-webkit-transform: translate(-350px); /* Safari */
+    transform: translate(-350px);
+    transition: transform 1s ease-in-out;
+    -webkit-transition-delay: 0.4s; /* Safari */
+    transition-delay: 0.4s;
+
+}
+
+/*------------------------------------------------------- */
 
 .second_b h2 {
 	float: left;
@@ -194,7 +227,7 @@ p {
 
 .third_a {
 	background-color: #F8BEC3;
-	margin-top: -10px;
+
 	height: 710px;
 	margin: 0 auto;
 	position: relative;

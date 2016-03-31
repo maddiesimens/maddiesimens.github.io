@@ -24,6 +24,9 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+
 
 </head>
 <body>
@@ -61,12 +64,12 @@
       </div>
     </div>
   </div>
-  <a href="#"><div class="second_b">
+  <div class="second_b">
     <div class="signup">
       <h2>SIGN UP</h2>
       <img src="images/arrow_red.png" class="arrow">
     </div>
-  </div></a>
+  </div>
 </div>
 <div class="third">
   <div class="third_a">
@@ -109,6 +112,16 @@
 </div>
 
 
+<script>
+
+$('.second_b').on('click', function() {
+    $(this).toggleClass('clicked');
+    $('.second_a').toggleClass('clicked');
+    $('.second .note').toggleClass('clicked');
+    $('.signup').toggleClass('clicked');
+});
+
+</script>
 
 
 
