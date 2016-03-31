@@ -281,6 +281,7 @@
           <h4>Takeaways</h4>
           <p>After months of hard work alongside the talented Wistia team, we released these three features together as a major Stats update at the beginning of 2016. It's hard to quantify how much I learned over the course of these projects, but I can pretty easily point to why I enjoyed them so much: systems. I love the challenge of designing with a systems perspective—these projects were essentially one giant puzzle (comprised of slightly smaller puzzles). It’s an incredibly interesting constraint and makes the solution that much more satisfying. My work at Wistia has allowed me to flex my muscles designing within an existing system, and even further, it's given me the opportunity to design entirely new systems as well.  
           </p><br>
+          <div class="spacer_small"></div>
         </section>
       </div>
     </div>
@@ -374,10 +375,10 @@ $(window).scroll(function() {
     } else if (windscroll >= 7600 && windscroll <= 12400) {
         $('#introduction a, #heatmaps a, #statsreport a, #takeaways a').removeClass('active');
         $('#audience a').addClass('active');
-    } else if (windscroll >= 12400 && windscroll <= 15600) {
+    } else if (windscroll >= 12400 && windscroll <= 15450) {
         $('#introduction a, #heatmaps a, #audience a, #takeaways a').removeClass('active');
         $('#statsreport a').addClass('active');
-    } else if (windscroll >= 15600) {
+    } else if (windscroll >= 15450) {
         $('#introduction a, #heatmaps a, #audience a, #statsreport a').removeClass('active');
         $('#takeaways a').addClass('active');
     } else {
