@@ -167,6 +167,12 @@ h9 {	/* Perpendicular title text for case study thumbnails on index.html */
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
+iframe {
+	display: block;
+	padding-bottom: 20px;
+	width: 90%;
+}
+
 p {
 	font-family: CenturySchoolbook;
 	font-size: 18px;
