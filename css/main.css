@@ -419,6 +419,14 @@ footer {
 	width: 230px;
 }
 
+footer #copyright {
+	color: #c3c3c3;
+	display: block;
+	font-family: Circular;
+	margin: 40px auto 0px auto;
+	width: 180px;
+}
+
 footer img {
 	float: left;
 	padding: 0px 16px 0px 16px;
