@@ -584,6 +584,13 @@ footer img {
 	width: 100%;
 }
 
+.container .spacex {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+}
+
+
 /* #Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
 
