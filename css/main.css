@@ -61,7 +61,7 @@ body {
 	border-width: 1px 0 1px;
 	height: 135px;
 	margin-bottom: 35px;
-	margin-top: 15px;
+	margin-top: 20px;
 	width: 330px;
 }
 
@@ -80,7 +80,7 @@ h1 {
 }
 
 #icons {
-	margin-top: 70px;
+	margin-top: 75px;
 	margin-bottom: 65px;
 }
 
@@ -93,7 +93,7 @@ footer {
 	font-family: Neuzeit;
 	font-size: 18px;
 	float: left;
-	margin-top: 65px;
+	margin-top: 28px;
 	padding-bottom: 140px;
 	width: 340px;
 }
