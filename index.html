@@ -6,7 +6,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Maddie Simens</title>
-  <meta name="description" content="Hey, I'm Maddie. Product design is my thing. This is some of my work.">
+  <meta name="description" content="My name's Maddie Simens, and I'm a UX designer at Stripe."
   <meta name="author" content="">
 
   <!-- Mobile Specific Metas
@@ -24,8 +24,27 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
-  <!-- Google Analytics
+  <!-- jsQuery
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+      $("#icon1").click(function(){
+          $("body").addClass("background2");
+          $("h1").addClass("text2");
+          $("h1").removeClass("h1");
+          $("a").addClass("link2");
+          $("#icon1").addClass("fill2");
+          $("#icon1").removeClass("fill1")
+
+      });
+  });
+  </script>
+
+    <!-- Google Analytics
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
   <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -55,63 +74,32 @@
       <nav>
         <div class="row group">
           <div class="sixteen columns">
-            <div class="alignleft">
-              <a href="index.html">Maddie Simens</a>
+            <div id="icons" class="alignleft">
+           		<img src="images/circle1.svg" class="icon">
+                <img src="images/triangle2.svg" class="icon" style="margin-left:-5px;">
+                <img src="images/square3.svg" class="icon">
             </div>
-            <div class="alignright">
-              <a href="index.html" class="nav_active">Work</a>
-              <a href="about.html">About</a>
-              <a href="mailto:maddiesimens@gmail.com?subject=Hello">
-                <img src="images/nav_email.png" class="alignright" id="nav_email_icon">
-              </a>
-            </div>
-            <div style="clear: both;"></div>
           </div>
         </div>
       </nav>
 
       <div class="row group">
-        <div class="sixteen columns">
-          <h1>Hey, I'm Maddie.<br>Product design is my thing.</h1>
-        </div>
-      </div>
+        <div class="eight columns">
+          <div id="dividers"><h1>HI I'M MADDIE,<br>I DO UX DESIGN<br>AT A PLACE CALLED <a href="https://stripe.com/" target="_blank">STRIPE.</a></h1><br></div>
 
-      <div class="row group">
-        <div class="eight columns thumb">
-          <a href="wistia.html"><img src="images/preview1.png" class="u-max-full-width animated fadeIn one"></a>
-          <h9>Wistia</h9>
-        </div>
-        <div class="eight columns thumb">
-          <a href="rdio.html"><img src="images/preview2.png" class="u-max-full-width animated fadeIn two"></a>
-          <h9>&nbsp; &nbsp; Rdio</h9>
-        </div>
-        <div class="eight columns thumb">
-          <a href="other.html"><img src="images/preview3.png" class="u-max-full-width animated fadeIn three"></a>
-          <h9>Other</h9>
-        </div>
-        <div class="eight columns thumb" id="preview4">
-          <a href="mailto:maddiesimens@gmail.com?subject=Hello" onclick="trackOutboundLink('mailto:maddiesimens@gmail.com?subject=Hello');">
-          <div class=" animated fadeIn four">
-            <img src="images/preview4.png" class="u-max-full-width">
-            <div id="cta">I've met some of my favorite<br>people over a cup of coffee.<br><br><span style="color:white; text-decoration:underline;">maddiesimens@gmail.com</span></div>
-          </div>
-          </a>
-      </div>
+          <body> Previously, I had the privilege of working<br> with the teams at Rdio and <a href="https://wistia.com/" target="_blank">Wistia</a> while<br> studying interaction design and business<br> at Northeastern University. I live in San<br> Francisco by way of Boston by way of<br>Cleveland. I like to ask questions.<br><br>
 
-      <div class="row group">
-        <div class="sixteen columns">
-          <div class="separator"></div>
+           Say hi — <a href="mailto:maddiesimens@gmail.com?subject=Hello" onclick="trackOutboundLink('mailto:maddiesimens@gmail.com?subject=Hello');">maddiesimens@gmail.com.</a></body>
         </div>
       </div>
 
       <div class="row group">
         <div class="sixteen columns">
           <footer>
-            <a href="https://twitter.com/maddiesimens" target="_blank"><img src="images/twitter.png" style="width:21px;"></a>    
-            <a href="https://www.instagram.com/maddie_simens/" target="_blank"><img src="images/instagram.png" style="width:19px;"></a>
-            <a href="https://www.linkedin.com/in/madelinesimens" target="_blank"><img src="images/linkedin.png" style="width:21px;"></a>
-            <a href="mailto:maddiesimens@gmail.com?subject=Hello"><img src="images/email.png" style="width:22px; padding-top:2px;"></a><br>
-            <div id="copyright">&copy; Maddie Simens 2016</div>
+            <a href="mailto:maddiesimens@gmail.com?subject=Hello">Email</a>
+            <a href="https://twitter.com/maddiesimens" target="_blank">Twitter</a>    
+            <a href="https://www.linkedin.com/in/madelinesimens" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/maddie_simens/" target="_blank">Instagram</a>
           </footer>
         </div>
       </div>
