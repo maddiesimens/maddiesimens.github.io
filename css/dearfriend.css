@@ -1,0 +1,251 @@
+
+* {
+	-webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+	font-family: Butler;
+	src: url(../fonts/Butler_Bold.otf);
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Futura;
+	src: url(../fonts/futura-book.ttf);
+}
+
+@font-face {
+	font-family: FuturaMedium;
+	src: url(../fonts/Futura.ttc);
+	font-weight: 300;
+}
+
+h1 {
+	font-family: Butler;
+	font-size: 72px;
+	margin: 225px auto 150px auto;
+	text-align: center;
+}
+
+h2 {
+	font-family: FuturaMedium;
+	font-size: 14px;
+	letter-spacing: 1.7px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+h3 {
+	font-family: Butler;
+	font-size: 36px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+h4 {
+	font-family: FuturaMedium;
+	font-size: 14px;
+	letter-spacing: 0.9px;
+	margin: 23px auto -10px auto;
+}
+
+.full_background {
+	background-size: cover;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.first {
+	background-color: #68ADBF;
+	color: #CEE5E7;
+	height: 710px;
+}
+
+.first .arrow {
+	display: block;
+	height: 33px;
+	margin: 14px auto 0 auto;
+	width: 11px;
+}
+
+.fourth {
+	background-color: #55639E;
+	color: #fff;
+	height: 280px;
+}
+
+p {
+	font-family: Futura;
+	font-size: 15px;
+	line-height: 22.5px;
+}
+
+.right {
+	float: right;
+	margin-right: 10px;
+}
+
+.second {
+	color: #499CB1;
+	height: 710px;
+	width: 100%;
+}
+
+.second h3 {
+	color: #CEE5E7;
+	position: absolute;
+	right: 400px;
+	top: 12px;
+	width: 170px;
+}
+
+.second .note {
+	background-color: #F9FAF6;
+	display: block;
+	height: 560px;
+	margin: 75px auto;
+	opacity: 1;
+	position: relative;
+	width: 434px;
+	transition: translate .9s ease-in-out;
+    -moz-transition: translate .9s ease-in-out;
+    -webkit-transition: translate .9s ease-in-out;
+}
+
+.second .note .content {
+	padding: 40px 55px;
+}
+
+.second, .third {
+	margin-top: -10px;
+}
+
+.second_a {
+	background-color: #DF7373;
+	margin-top: -10px;
+	height: 710px;
+	margin: 0 auto;
+	position: relative;
+	width: 70%;
+	float: left;
+	transition: width 1s ease-in-out;
+}
+
+.second_b {
+	background-color: #FFDB47;
+	color: #D40A22;
+	height: 710px;
+	margin: 0 auto;
+
+	top: 710px;
+	right: 0;
+	width: 30%;
+	float: left;
+	opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    transition: width 1s ease-in-out;
+}
+
+.second_b .arrow {
+	float: left;
+	height: 11px;
+	margin: 5px auto 0 15px;
+	width: 33px;
+}
+
+/* ---------------SIGN UP CLICK TRANSITION--------------- */
+
+.second_b.clicked {
+	width: 100%;
+}
+
+.second_a.clicked {
+	width: 0px;
+}
+
+.second_a .note.clicked {
+	-ms-transform: translate(-700px); /* IE 9 */
+   	-webkit-transform: translate(-700px); /* Safari */
+    transform: translate(-700px);
+    transition: transform 1s ease-in-out;
+}
+
+.signup.clicked {
+    -ms-transform: translate(-350px); /* IE 9 */
+   	-webkit-transform: translate(-350px); /* Safari */
+    transform: translate(-350px);
+    transition: transform 1s ease-in-out;
+    -webkit-transition-delay: 0.4s; /* Safari */
+    transition-delay: 0.4s;
+
+}
+
+/*------------------------------------------------------- */
+
+.second_b h2 {
+	float: left;
+	margin-top: 0px;
+}
+
+.signup {
+	display: block;
+	margin: 345px auto;
+	padding-left: 15px;
+	width: 150px;
+}
+
+.third {
+	height: 710px;
+}
+
+.third h3 {
+	color: #539F8B;
+	position: absolute;
+	right: -45px;
+	top: 120px;
+	width: 190px;
+}
+
+.third .note {
+	background-color: #F9FAF6;
+	display: block;
+	height: 515px;
+	margin: 95px auto;
+	position: relative;
+	width: 640px;
+}
+
+.third .note .content {
+	padding: 33px 55px;
+}
+
+.third_a {
+	background-color: #F8BEC3;
+
+	height: 710px;
+	margin: 0 auto;
+	position: relative;
+	width: 30%;
+	float: left;
+}
+
+.third_b {
+	background-color: #63AE9A;
+	color: #539F94;
+	height: 710px;
+	margin: 0 auto;
+	width: 70%;
+	float: left;
+}
+
+
+
+
+
+
