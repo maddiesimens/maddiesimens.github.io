@@ -132,6 +132,10 @@ footer a {
 /* #Larger than desktop */
 @media (max-width: 1200px) {
 
+.container {
+	margin: auto;
+	width: 320px;
+}
 }
 
 }
