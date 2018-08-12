@@ -179,8 +179,10 @@ body.day #sun {
 /* For devices smaller than 400px */
 @media (max-width: 550px) {
 body.night #moon {
-	padding-bottom: 64px;
+	padding-bottom: 32px;
+	padding-right: 16px;
 	width: 24px;
+	float: right
 }
 
 body.day #sun {
