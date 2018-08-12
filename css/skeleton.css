@@ -32,7 +32,7 @@
   position: relative;
   width: 100%;
   max-width: 704px;
-  margin: 48px auto;
+  margin: 120px auto;
   padding: 0 32px;
   box-sizing: border-box; }
 .column,
@@ -42,9 +42,6 @@
   box-sizing: border-box; }
 .three.columns {
   width: 50%;
-}
-.three.columns.icon {
-  width: 100%;
 }
 
 /* For devices larger than 400px */
@@ -57,7 +54,6 @@
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
-    margin: 120px auto;
     width: 80%; }
   .column,
   .columns {
