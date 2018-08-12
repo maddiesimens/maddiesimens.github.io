@@ -180,14 +180,14 @@ body.day #sun {
 @media (max-width: 550px) {
 body.night #moon {
 	padding-bottom: 32px;
-	padding-right: 16px;
+	padding-right: 8px;
 	width: 24px;
 	float: right
 }
 
 body.day #sun {
 	padding-bottom: 32px;
-	padding-right: 16px;
+	padding-right: 8px;
 	width: 24px;
 	float: right
 }
