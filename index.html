@@ -6,7 +6,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Maddie Simens</title>
-  <meta name="description" content="My name's Maddie Simens, and I'm a UX designer at Stripe."
+  <meta name="description" content="I'm Maddie Simens, a UX designer at Stripe."
   <meta name="author" content="">
 
   <!-- Mobile Specific Metas
@@ -16,7 +16,7 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton-16col.css">
+  <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/animate.css">
 
@@ -30,17 +30,48 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script>
   $(document).ready(function(){
-      $("#icon1").click(function(){
-          $("body").addClass("background2");
-          $("h1").addClass("text2");
-          $("h1").removeClass("h1");
-          $("a").addClass("link2");
-          $("#icon1").addClass("fill2");
-          $("#icon1").removeClass("fill1")
-
+      $("#moon").click(function(){
+          $("body").addClass("day");
+          $("body").removeClass("night");
+      });
+      $("#sun").click(function(){
+          $("body").removeClass("day");
+          $("body").addClass("night");
       });
   });
-  </script>
+
+</script>
+
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Aug 1, 2016 09:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now and the count down date
+    var distance = now - countDownDate;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="counter"
+    document.getElementById("counter").innerHTML = days + " days, " + hours + " hour" + (hours === 1 ? "" : "s") + ", " + minutes + " minute" + (minutes === 1 ? "" : "s") + ", and "  + seconds + " second" + (seconds === 1 ? "" : "s");
+    
+    // If the count down errors, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("counter").innerHTML = "2 years";
+    }
+}, 1000);
+</script>
 
     <!-- Google Analytics
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -70,39 +101,104 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container animated fadeIn one">
-      <nav>
-        <div class="row group">
-          <div class="sixteen columns">
-            <div id="icons" class="alignleft">
-           		<img src="images/circle1.svg" class="icon">
-                <img src="images/triangle2.svg" class="icon" style="margin-left:-5px;">
-                <img src="images/square3.svg" class="icon">
-            </div>
-          </div>
-        </div>
-      </nav>
 
-      <div class="row group">
-        <div class="eight columns">
-          <div id="dividers"><h1>HI I'M MADDIE,<br>I DO UX DESIGN<br>AT A PLACE CALLED <a href="https://stripe.com/" target="_blank">STRIPE.</a></h1><br></div>
+<body class="night">
+<div class="container animated fadeIn one">
+  <div class="row group">
+    <div class="three columns">
+   		<img src="images/moon.svg" id="moon">
+      <img src="images/sun.svg" id="sun">
+    </div>
 
-          <body>I'd like to make the internet a little more<br>human. Previously, I had the privilege of <br>working with the teams at Rdio and <br><a href="https://wistia.com/" target="_blank">Wistia</a> while studying interaction design <br>and business at Northeastern University.<br> I live in San Francisco by way of Boston <br>by way of Cleveland. Say hi. </body>
-        </div>
+    <div class="six columns offset-by-three">
+      <h1 class="night">maddie<br>simens</h1>
+
+      <div class="animated fadeIn two">
+       <p>Hi, I’m Maddie. I’ve been designing products at Stripe for the last <span id="counter"><br></span>.</p>
+
+       <p>I live in San Francisco by way of Boston by way of Cleveland. Say hi sometime.</p>
+
+      <h2 class="night">
+        <a href="https://twitter.com/maddiesimens" target="_blank">Twitter</a>    
+        <a href="https://www.instagram.com/maddiesimens/" target="_blank">Instagram</a>
+        <a href="mailto:maddiesimens@gmail.com?subject=Hello">Email</a>
+      </h2>
+
+      <div class="spacer48"></div>
+
       </div>
 
-      <div class="row group">
-        <div class="sixteen columns">
-          <footer>
-            <a href="mailto:maddiesimens@gmail.com?subject=Hello">Email</a>
-            <a href="https://twitter.com/maddiesimens" target="_blank">Twitter</a>    
-            <a href="https://www.linkedin.com/in/madelinesimens" target="_blank">LinkedIn</a>
-            <a href="https://www.instagram.com/maddiesimens/" target="_blank">Instagram</a>
-          </footer>
-        </div>
-      </div>
+      <h4 class="animated fadeIn three">Experience</h4> 
 
     </div>
+
+  </div>
+
+  <div class="row group">
+    <div class="three columns offset-by-six animated fadeIn three">      
+      <h2 class="night">Stripe</h2>
+    </div>  
+    <div class="three columns animated fadeIn three">
+      <h3>UX Designer</h3>
+      <h4>2016–Now</h4>
+    </div>
+  </div>
+
+  <div class="row group">
+    <div class="three columns offset-by-six animated fadeIn three">      
+      <h2 class="night">Wistia</h2>
+    </div>  
+    <div class="three columns animated fadeIn three">
+      <h3>Product Designer</h3>
+      <h4>2015–2016</h4>
+    </div>
+  </div>  
+
+  <div class="row group">
+    <div class="three columns offset-by-six animated fadeIn three">      
+      <h2 class="night">Rdio</h2>
+    </div>  
+    <div class="three columns animated fadeIn three">
+      <h3>UX Design Co-op</h3>
+      <h4>2014</h4>
+    </div>
+  </div>
+
+  <div class="row group">
+    <div class="three columns offset-by-six animated fadeIn three">
+
+      <div class="spacer48"></div>
+
+      <h4>Education</h4>
+
+    </div>
+
+  </div>
+
+  <div class="row group">
+
+    <div class="three columns offset-by-six animated fadeIn three">
+      <h2 class="night">Northeastern University</h2>
+    </div>  
+
+    <div class="three columns animated fadeIn three">
+      <h3>Interaction Design and Business</h3>
+      <h4>2011–2016</h4>
+    </div>
+
+  </div>
+
+  <div class="row group">
+    <div class="six columns offset-by-six animated fadeIn three">
+      <footer>&copy; Maddie Simens 2018</footer>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</body>
+
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
