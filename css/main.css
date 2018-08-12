@@ -186,8 +186,10 @@ body.night #moon {
 }
 
 body.day #sun {
-	padding-bottom: 64px;
+	padding-bottom: 32px;
+	padding-right: 16px;
 	width: 24px;
+	float: right
 }
 
 
