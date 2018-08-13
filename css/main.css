@@ -27,11 +27,11 @@
 body.night a {
 	color: #fff;
 	text-decoration: none;
-	-webkit-transition: color 0.2s;
+	/* -webkit-transition: color 0.2s;
 	-moz-transition:    color 0.2s;
 	-ms-transition:     color 0.2s;
 	-o-transition:      color 0.2s;
-	transition:         color 0.2s;
+	transition:         color 0.2s; */
 }
 
 body.day a {
@@ -44,9 +44,58 @@ body.day a {
 	transition:         color 0.2s;
 }
 
-a:hover {	
-	color: #1478FB; 
+.underline {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+  width: 40px;
 }
+
+.underline:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: -4px;
+  background: #8A898C;
+  height: 1.5px;
+  transition-property: left right;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after {
+  right: 0;
+}
+
+/* .underline-rdio {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+  width: 40px;
+}
+
+.underline-rdio:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 100%;
+  bottom: 8px;
+  background: #403E43;
+  height: 2px;
+  transition-property: left right;
+  transition-duration: 0.175s;
+  transition-timing-function: ease-out;
+}
+.underline-rdio:hover:after,
+.underline-rdio:focus:after,
+.underline-rdio:active:after {
+  right: 0;
+}
+*/
 
 body.night {	
 	background-color: #221F26;
@@ -77,18 +126,18 @@ footer {
 body.night h1 {
 	color: #fff;
 	font-family: NeueHaasMedium;
-	font-size: 28px;
+	font-size: 20px;
 	letter-spacing: .25px;
-	line-height: 34px;
+	line-height: 28px;
 	padding-bottom: 64px;
 }
 
 body.day h1 {
 	color: #403E43;
 	font-family: NeueHaasMedium;
-	font-size: 28px;
+	font-size: 20px;
 	letter-spacing: .25px;
-	line-height: 32px;
+	line-height: 28px;
 	padding-bottom: 64px;
 }
 
@@ -111,7 +160,7 @@ body.day h2 {
 }
 
 h2 a {
-	padding-right: 32px;
+	margin-right: 32px;
 }
 
 body.night h3 {
@@ -154,7 +203,7 @@ body.day h4 {
 
 body.night #moon {
 	cursor: pointer;
-	width: 24px;
+	width: 20px;
 }
 
 body.day #moon {
@@ -167,7 +216,7 @@ body.night #sun {
 
 body.day #sun {
 	cursor: pointer;
-	width: 24px;
+	width: 20px;
 }
 
 .spacer48 {
@@ -179,14 +228,14 @@ body.day #sun {
 /* For devices smaller than 400px */
 @media (max-width: 550px) {
 body.night #moon {
-	padding-bottom: 32px;
+	padding-bottom: 80px;
 	padding-right: 8px;
 	width: 24px;
 	float: right
 }
 
 body.day #sun {
-	padding-bottom: 32px;
+	padding-bottom: 80px;
 	padding-right: 8px;
 	width: 24px;
 	float: right
