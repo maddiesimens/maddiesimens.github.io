@@ -13,10 +13,14 @@
 }
 
 @font-face {
-	font-family: NeueHaasMedium;
+	font-family: NeueHaasMed;
 	src: url(../fonts/NHaasGroteskTXPro-65Md.ttf);
 }
 
+@font-face {
+	font-family: NeueHaasMedium;
+	src: url(../fonts/NHaasGroteskTXPro-75Bd.ttf);
+}
 
 * {
 	-webkit-font-smoothing: antialiased;
