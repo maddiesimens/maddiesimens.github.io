@@ -26,6 +26,7 @@
 
 body.night a {
 	color: #fff;
+	font-family: NeueHaasMedium;
 	text-decoration: none;
 	/* -webkit-transition: color 0.2s;
 	-moz-transition:    color 0.2s;
@@ -36,6 +37,7 @@ body.night a {
 
 body.day a {
 	color: #403E43;
+	font-family: NeueHaasMedium;
 	text-decoration: none;
 	-webkit-transition: color 0.2s;
 	-moz-transition:    color 0.2s;
@@ -57,7 +59,7 @@ body.day a {
   z-index: -1;
   left: 0;
   right: 100%;
-  bottom: -4px;
+  bottom: -3px;
   background: #8A898C;
   height: 1.5px;
   transition-property: left right;
@@ -129,7 +131,7 @@ body.night h1 {
 	font-size: 20px;
 	letter-spacing: .25px;
 	line-height: 28px;
-	padding-bottom: 64px;
+	padding-bottom: 48px;
 }
 
 body.day h1 {
@@ -138,7 +140,7 @@ body.day h1 {
 	font-size: 20px;
 	letter-spacing: .25px;
 	line-height: 28px;
-	padding-bottom: 64px;
+	padding-bottom: 48px;
 }
 
 body.night h2 {
@@ -228,14 +230,14 @@ body.day #sun {
 /* For devices smaller than 400px */
 @media (max-width: 550px) {
 body.night #moon {
-	padding-bottom: 80px;
+	margin-bottom: 80px;
 	padding-right: 8px;
 	width: 24px;
 	float: right
 }
 
 body.day #sun {
-	padding-bottom: 80px;
+	margin-bottom: 80px;
 	padding-right: 8px;
 	width: 24px;
 	float: right
