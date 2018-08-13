@@ -13,14 +13,14 @@
 }
 
 @font-face {
-	font-family: NeueHaasMed;
+	font-family: NeueHaasMedium;
 	src: url(../fonts/NHaasGroteskTXPro-65Md.ttf);
 }
 
-@font-face {
+/* @font-face {
 	font-family: NeueHaasMedium;
 	src: url(../fonts/NHaasGroteskTXPro-75Bd.ttf);
-}
+} */
 
 * {
 	-webkit-font-smoothing: antialiased;
@@ -66,7 +66,7 @@ body.day a {
   right: 0;
 }
 
-/* .underline-rdio {
+.underline-rdio {
   display: inline;
   position: relative;
   overflow: hidden;
@@ -80,8 +80,8 @@ body.day a {
   left: 0;
   right: 100%;
   bottom: 8px;
-  background: #403E43;
-  height: 2px;
+  background: #221F26; /* 221F26 */
+  height: 1px;
   transition-property: left right;
   transition-duration: 0.175s;
   transition-timing-function: ease-out;
@@ -91,7 +91,23 @@ body.day a {
 .underline-rdio:active:after {
   right: 0;
 }
-*/
+
+#rdio-psa {
+	color: #8A898C;
+	font-family: NeueHaas;
+	font-size: 12px;
+	letter-spacing: 0.75px;
+	line-height: 20px;
+	margin-top: 4px;
+	opacity: 0;
+	transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+}
+
+.underline-rdio:hover + #rdio-psa {
+	opacity: 1;
+}
+
 
 body.night {	
 	background-color: #221F26;
@@ -159,7 +175,7 @@ body.night h3 {
 	color: #C8C8C9;
 	font-family: NeueHaas;
 	font-size: 16px;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.35px;
 	line-height: 24px;
 	margin-bottom: 4px;
 }
@@ -168,7 +184,7 @@ body.day h3 {
 	color: #403E43;
 	font-family: NeueHaas;
 	font-size: 16px;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.35px;
 	line-height: 24px;
 	margin-bottom: 4px;
 }
