@@ -232,14 +232,14 @@ body.day #sun {
 body.night #moon {
 	margin-bottom: 80px;
 	padding-right: 8px;
-	width: 24px;
+	width: 20px;
 	float: right
 }
 
 body.day #sun {
 	margin-bottom: 80px;
 	padding-right: 8px;
-	width: 24px;
+	width: 20px;
 	float: right
 }
 
