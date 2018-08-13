@@ -28,22 +28,12 @@ body.night a {
 	color: #fff;
 	font-family: NeueHaasMedium;
 	text-decoration: none;
-	/* -webkit-transition: color 0.2s;
-	-moz-transition:    color 0.2s;
-	-ms-transition:     color 0.2s;
-	-o-transition:      color 0.2s;
-	transition:         color 0.2s; */
 }
 
 body.day a {
 	color: #403E43;
 	font-family: NeueHaasMedium;
 	text-decoration: none;
-	-webkit-transition: color 0.2s;
-	-moz-transition:    color 0.2s;
-	-ms-transition:     color 0.2s;
-	-o-transition:      color 0.2s;
-	transition:         color 0.2s;
 }
 
 .underline {
@@ -159,10 +149,6 @@ body.day h2 {
 	letter-spacing: .25px;
 	line-height: 24px;
 	margin-bottom: 48px;
-}
-
-h2 a {
-	margin-right: 32px;
 }
 
 body.night h3 {
