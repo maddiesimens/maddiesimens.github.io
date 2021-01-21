@@ -1066,27 +1066,27 @@ Copyright (c) 2014 Daniel Eden
 
 /* Add delayed effect to landing page */
 .fadeIn.one {
-  -webkit-animation-delay: 0.25s;
-  -moz-animation-delay: 0.25s;
-  animation-delay: 0.25s;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
  
 .fadeIn.two {
-  -webkit-animation-delay: 0.45s;
-  -moz-animation-delay:0.45s;
-  animation-delay: 0.45s;
+  -webkit-animation-delay: 0.75s;
+  -moz-animation-delay:0.75s;
+  animation-delay: 0.75s;
 }
  
 .fadeIn.three {
-  -webkit-animation-delay: 0.75s;
-  -moz-animation-delay: 0.75s;
-  animation-delay: 0.75s;
+  -webkit-animation-delay: 0.9s;
+  -moz-animation-delay: 0.9s;
+  animation-delay: 0.9s;
 }
 
 .fadeIn.four {
-  -webkit-animation-delay: 0.95s;
-  -moz-animation-delay: 0.95s;
-  animation-delay: 0.95s;
+  -webkit-animation-delay: 1.05s;
+  -moz-animation-delay: 1.05s;
+  animation-delay: 1.05s;
 }
 
 @-webkit-keyframes fadeInDown {
